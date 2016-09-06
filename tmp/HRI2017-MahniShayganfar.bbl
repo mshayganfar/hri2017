@@ -1,0 +1,103 @@
+\begin{thebibliography}{10}
+
+\bibitem{adam:bdi-emotional-companion}
+C.~Adam and E.~Lorini.
+\newblock A {BDI} emotional reasoning engine for an artificial companion.
+\newblock In {\em Workshop on Agents and multi-agent Systems for AAL and
+  e-HEALTH (PAAMS)}, volume 430, pages 66--78. Springer, 2014.
+
+\bibitem{cohen:teamwork}
+P.~Cohen and H.~J. Levesque.
+\newblock {\em Teamwork}.
+\newblock SRI International, 1991.
+
+\bibitem{castro:autonomous-robot-fear}
+A.~C. Gonzalez, M.~Malfaz, and M.~A. Salichs.
+\newblock An autonomous social robot in fear.
+\newblock {\em IEEE Transactions Autonomous Mental Development}, 5(2):135--151,
+  2013.
+
+\bibitem{gratch:domain-independent}
+J.~Gratch and S.~C.Marsella.
+\newblock A domain-independent framework for modeling emotion.
+\newblock {\em Cognitive Systems Research}, 5(4):269--306, 2004.
+
+\bibitem{grosz:plans-discourse}
+B.~J. Grosz and C.~L. Sidner.
+\newblock Plans for discourse.
+\newblock In P.~R. Cohen, J.~Morgan, and M.~E. Pollack, editors, {\em
+  Intentions in Communication}, pages 417--444. MIT Press, Cambridge, MA, 1990.
+
+\bibitem{hudlicka:emotinos-reasons}
+E.~Hudlicka.
+\newblock Reasons for emotinos: Modeling emotinos in integrated cognitive
+  systems.
+\newblock In W.~D. Gary, editor, {\em Integrated Models of Cognitive Systems},
+  volume~59, pages 1--37. New York: Oxford University Press, 2007.
+
+\bibitem{marinier:emotion-reinforcement}
+R.~P.~M. III and J.~E. Laird.
+\newblock Emotion-driven reinforcement learning.
+\newblock In {\em CogSci 2008}, 2008.
+
+\bibitem{kim:model-hri-appraisal}
+H.-R. Kim and D.-S. Kwon.
+\newblock Computational model of emotion generation for human-robot interaction
+  based on the cognitive appraisal theory.
+\newblock {\em Journal of Intelligent and Robotic Systems}, 60(2):263--283,
+  2010.
+
+\bibitem{marsella:ema-process-model}
+S.~C. Marsella and J.~Gratch.
+\newblock {EMA}: A process model of appraisal dynamics.
+\newblock {\em Cognitive Systems Research}, 10(1):70--90, March 2009.
+
+\bibitem{marsella:computational}
+S.~C. Marsella, J.~Gratch, and P.~Petta.
+\newblock Computational models of emotion.
+\newblock In {\em Blueprint for Affective Computing (Series in Affective
+  Science)}. Oxford University Press, Oxford, 2010.
+
+\bibitem{scott:modeling-empathy-agent}
+S.~W. McQuiggan and J.~C. Lester.
+\newblock Modeling and evaluating empathy in embodied companion agents.
+\newblock {\em International Journal of Human-Computer Studies},
+  65(4):348--360, 2007.
+
+\bibitem{paiva:agent-care}
+A.~Paiva, J.~Dias, D.~Sobral, R.~Aylett, P.~Sobreperez, S.~Woods, C.~Zoll, and
+  L.~Hall.
+\newblock Caring for agents and agents that care: Building empathic relations
+  with synthetic agents.
+\newblock In {\em Proceedings of the Third International Joint Conference on
+  Autonomous Agents and Multiagent Systems-Volume 1}, pages 194--201, 2004.
+
+\bibitem{pontier:women-robot-men}
+M.~Pontier and J.~F. Hoorn.
+\newblock How women think robots perceive them - as if robots were men.
+\newblock In {\em International Conference on Agents and Artificial
+  Intelligence (ICAART-2)}, pages 496--504, 2013.
+
+\bibitem{scherer:sequential-appraisal-process}
+K.~R. Scherer.
+\newblock On the sequential nature of appraisal processes: Indirect evidence
+  from a recognition task.
+\newblock {\em Cognition \& Emotion}, 13(6):763--793, 1999.
+
+\bibitem{scherer:appraisal-processes}
+K.~R. Scherer, A.~Schorr, and T.~Johnstone.
+\newblock {\em Appraisal Processes in Emotion: Theory, Methods, Research}.
+\newblock Oxford University Press, 2001.
+
+\bibitem{tambe:flexible-teamwork}
+M.~Tambe.
+\newblock Towards flexible teamwork.
+\newblock {\em Journal of Artificial Intelligence Research}, 7:83--124, 1997.
+
+\bibitem{velasquez:emotions-motivations-agents}
+J.~D. Vel$\grave{a}$squez.
+\newblock Modeling emotions and other motivations in synthetic agents.
+\newblock In {\em Proceedings of the 14th Nnational Conference on Artificial
+  Intelligence AAAI-97}, pages 10--15, 1997.
+
+\end{thebibliography}
