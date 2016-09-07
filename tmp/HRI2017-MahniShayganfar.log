@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  6 SEP 2016 00:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  6 SEP 2016 22:35
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1041,7 +1041,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  19169 strings out of 493304
  369015 string characters out of 6139871
- 755829 words of memory out of 5000000
+ 755831 words of memory out of 5000000
  22181 multiletter control sequences out of 15000+600000
  94954 words of font info for 91 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1064,7 +1064,7 @@ st/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 ic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on HRI2017-MahniShayganfar.pdf (6 pages, 260981 bytes).
+Output written on HRI2017-MahniShayganfar.pdf (6 pages, 262096 bytes).
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
  97 compressed objects within 1 object stream

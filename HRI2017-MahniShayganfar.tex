@@ -1095,7 +1095,24 @@ out proper collaborative behaviors.
 
 \section{Experimental Scenario}
 
+Our scenario was based on a table top turn-taking game that we designed to
+simulate installing a solar panel. Participants had to collaborate one-on-one
+with our robot to complete all the given tasks required to install the solar
+panel. All the tasks were simple picking up and placing collaborators' available
+pegs on predefined spots on the board. Each pick-and-place was associated with
+the robot's or the participant's task. The robot and the participants had their
+own unique primitive tasks that they had to accomplish in their own turn. The final
+goal of installing a solar panel required the robot and the participants to
+accomplish their own individual tasks. Failure of any task could create an
+impasse during the collaboration.
+
 \subsection{The Robot}
+
+We conducted our experiment based on a KUKA Youbot (see Figure XYZ). The robot
+was stationary on top of a desk and was able to pick up and place avaiable pegs
+corresponding to the robot's task. The robot was operated based on ROS and
+was receiving commands through the ROS-bridge from our Affective Motivational
+Collaboration framework. Figure XYZ shows the structure of this connection.
 
 \subsection{Interaction Paradigms}
 
