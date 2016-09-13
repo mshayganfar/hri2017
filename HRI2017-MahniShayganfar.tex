@@ -1111,10 +1111,40 @@ impasse during the collaboration.
 We conducted our experiment based on a KUKA Youbot (see Figure XYZ). The robot
 was stationary on top of a desk and was able to pick up and place avaiable pegs
 corresponding to the robot's task. The robot was operated based on ROS and
-was receiving commands through the ROS-bridge from our Affective Motivational
-Collaboration framework. Figure XYZ shows the structure of this connection.
+was receiving commands through the ROS-bridge from either our Affective
+Motivational Collaboration framework or Disco, see Figure XYZ.
 
 \subsection{Interaction Paradigms}
+The robot interacted via a) speech, b) the corresponding utterance on the
+screen, c) negative, positive and neutral expression of emotion through an
+emoticon on the screen. The robot used neutral expression in case of the
+emotion-ignorance. The interaction was controlled autonomously by the AMC
+framework in case of the emotion-awareness, and Disco in case of the
+emotion-ignorance (see Section XYZ). The reasoning about which task should be
+done and controlling the robot was entirely autonomous. Only the perception of
+the task failure or achievement by the robot or by the participant was done by a
+wizard monitoring the collabortion outside of the test area. The interaction was
+structured based on the exact same goals in an HTN for both conditions. The
+robot was using the same utterances in both conditions. In emotion-aware
+condition only if the participant was expressing a negative emotion in case of a
+failure the robot was using a different utterance in compare to the
+participant's positive or neutral expression of emotion; i.e., the robot's
+utterances were identical in emotion-aware and emotion-ignorance cases if in the
+latter the participant reported (expressed) a positive or a neutral emotion. At
+the beginning of each collaboration the robot asked each participant to achieve
+the overall shared goal, i.e., ``installing the solar panel''. Then, before
+achieving a new goal, the robot informed the participant about the higher level
+nonprimitive goal of which the primitives were going to be achieved. The same
+procedure was used by the robot if there was a decision for switching to another
+nonprimitive due to the failure of the task achieving the current goal. For
+example, \ldots (see Figure XYZ -- for branches!!!). After achieving a new
+primitive goal, the robot either informed the human keeping the ground for the
+next goal to achieve, or informed and passed the ground to the human to execute
+the next task with repoect to the human's goal. In case of the human's turn, the
+robot waited for the human to do a task, then the wizard let the robot know
+whether the human's goal was achieved or not. Afterwards the robot was making a
+decision about which goal to pursue and was informing human accordingly. The
+same entire procedure was applied to both conditions.
 
 \subsection{Environment and Tasks}
 
