@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  12 SEP 2016 22:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  13 SEP 2016 22:09
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -932,13 +932,22 @@ Overfull \hbox (4.08873pt too wide) in paragraph at lines 342--342
 LaTeX Warning: Citation `shayganfar:theory-overview' on page \thepage  undefine
 d on input line 345.
 
-<figure/theory-general-croped.pdf, id=16, 417.56pt x 287.0725pt>
-File: figure/theory-general-croped.pdf Graphic file (type pdf)
 
-<use figure/theory-general-croped.pdf>
-Package pdftex.def Info: figure/theory-general-croped.pdf used on input line 36
-2.
-(pdftex.def)             Requested size: 226.79846pt x 155.92795pt.
+LaTeX Warning: File `figure/theory-general-croped.pdf' not found on input line 
+362.
+
+
+! Package pdftex.def Error: File `figure/theory-general-croped.pdf' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.362 ...twidth]{figure/theory-general-croped.pdf}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 LaTeX Warning: Reference `sec:appraisal-process' on page \thepage  undefined on
@@ -951,20 +960,30 @@ ti-ate, di-rect and main-
  []
 
 
+Underfull \vbox (badness 1558) has occurred while \output is active []
+
+ [2]
 Underfull \hbox (badness 10000) in paragraph at lines 450--455
 
  []
 
-<figure/taskModel-croped.pdf, id=17, 556.0775pt x 221.82875pt>
-File: figure/taskModel-croped.pdf Graphic file (type pdf)
 
-<use figure/taskModel-croped.pdf>
-Package pdftex.def Info: figure/taskModel-croped.pdf used on input line 464.
-(pdftex.def)             Requested size: 412.56851pt x 148.66508pt.
+LaTeX Warning: File `figure/taskModel-croped.pdf' not found on input line 464.
 
-Underfull \vbox (badness 1558) has occurred while \output is active []
 
- [2 <./figure/theory-general-croped.pdf>]
+! Package pdftex.def Error: File `figure/taskModel-croped.pdf' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.464 ...ght=5.225cm]{figure/taskModel-croped.pdf}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 Overfull \hbox (6.20354pt too wide) in paragraph at lines 539--545
 [][]\T1/ptm/m/it/9 getGoalStatus($\OML/cmm/m/it/9 g[]$\T1/ptm/m/it/9 ) \T1/ptm/
 m/n/9 re-turns whether $\OML/cmm/m/it/9 g[]$\T1/ptm/m/n/9 's sta-tus is \T1/ptm
@@ -992,7 +1011,7 @@ d on input line 605.
 LaTeX Warning: Citation `shayganfar:emotional-awareness' on page \thepage  unde
 fined on input line 606.
 
-[3 <./figure/taskModel-croped.pdf>]
+[3]
 
 LaTeX Warning: Command \textgreater invalid in math mode on input line 730.
 
@@ -1027,13 +1046,37 @@ d on input line 1089.
 LaTeX Warning: Citation `shayganfar:goal-management' on page \thepage  undefine
 d on input line 1091.
 
-[5] (./HRI2017-MahniShayganfar.bbl
+[5] <figure/collaborationStructure.pdf, id=40, 727.71875pt x 258.9675pt>
+File: figure/collaborationStructure.pdf Graphic file (type pdf)
+
+<use figure/collaborationStructure.pdf>
+Package pdftex.def Info: figure/collaborationStructure.pdf used on input line 1
+119.
+(pdftex.def)             Requested size: 504.0pt x 179.3595pt.
+
+<figure/gameBoard.pdf, id=41, 1838.87pt x 1057.9525pt>
+File: figure/gameBoard.pdf Graphic file (type pdf)
+
+<use figure/gameBoard.pdf>
+Package pdftex.def Info: figure/gameBoard.pdf used on input line 1160.
+(pdftex.def)             Requested size: 241.91785pt x 139.1691pt.
+
+Overfull \hbox (1.91785pt too wide) in paragraph at lines 1160--1162
+ [][][] 
+ []
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <9> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 1209.
+[6 <./figure/gameBoard.pdf>] (./HRI2017-MahniShayganfar.bbl
 Overfull \hbox (16.03096pt too wide) in paragraph at lines 1--1
 \T1/pcr/m/n/9 jsmith@affiliation.org\T1/ptm/m/n/9 ) and Julius P. Kumquat (The 
 Kumquat
  []
 
-[6]) [7
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./figure/collaborationStructure.pdf>]) [8
 
 ] (./HRI2017-MahniShayganfar.aux)
 
@@ -1041,11 +1084,11 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 19169 strings out of 493304
- 369015 string characters out of 6139871
+ 19177 strings out of 493304
+ 369128 string characters out of 6139871
  755831 words of memory out of 5000000
- 22181 multiletter control sequences out of 15000+600000
- 94954 words of font info for 91 fonts, out of 8000000 for 9000
+ 22186 multiletter control sequences out of 15000+600000
+ 97722 words of font info for 93 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  56i,11n,59p,10428b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
@@ -1064,12 +1107,13 @@ live/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvet
 ic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on HRI2017-MahniShayganfar.pdf (7 pages, 264818 bytes).
+/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/urw/times/utmri8a.pfb>
+Output written on HRI2017-MahniShayganfar.pdf (8 pages, 265910 bytes).
 PDF statistics:
- 145 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
+ 147 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

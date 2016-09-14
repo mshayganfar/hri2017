@@ -1114,7 +1114,16 @@ corresponding to the robot's task. The robot was operated based on ROS and
 was receiving commands through the ROS-bridge from either our Affective
 Motivational Collaboration framework or Disco, see Figure XYZ.
 
+\begin{figure*}
+  \centering
+  \includegraphics[width=1\textwidth]{figure/collaborationStructure.pdf}
+  \caption{{\fontsize{9}{9}\selectfont Collaboration structure used as the
+  task model.}}
+  \label{fig:collaboration_structure}
+\end{figure*}
+
 \subsection{Interaction Paradigms}
+\label{sec-interaction-paradigms}
 The robot interacted via a) speech, b) the corresponding utterance on the
 screen, c) negative, positive and neutral expression of emotion through an
 emoticon on the screen. The robot used neutral expression in case of the
@@ -1137,23 +1146,38 @@ achieving a new goal, the robot informed the participant about the higher level
 nonprimitive goal of which the primitives were going to be achieved. The same
 procedure was used by the robot if there was a decision for switching to another
 nonprimitive due to the failure of the task achieving the current goal. For
-example, \ldots (see Figure XYZ -- for branches!!!). After achieving a new
-primitive goal, the robot either informed the human keeping the ground for the
-next goal to achieve, or informed and passed the ground to the human to execute
-the next task with repoect to the human's goal. In case of the human's turn, the
-robot waited for the human to do a task, then the wizard let the robot know
-whether the human's goal was achieved or not. Afterwards the robot was making a
-decision about which goal to pursue and was informing human accordingly. The
-same entire procedure was applied to both conditions.
+example, \ldots (see Figure \ref{fig:collaboration_structure}). After achieving
+a new primitive goal, the robot either informed the human keeping the ground for
+the next goal to achieve, or informed and passed the ground to the human to
+execute the next task with repoect to the human's goal. In case of the human's
+turn, the robot waited for the human to do a task, then the wizard let the robot
+know whether the human's goal was achieved or not. Afterwards the robot was
+making a decision about which goal to pursue and was informing human
+accordingly. The same entire procedure was applied to both conditions.
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.48\textwidth]{figure/gameBoard.pdf}
+  \caption{The layout of the spots for the human and the robot to place their
+  pegs during the collaboration.}
+  \label{fig:game_board}
+\end{figure}
 
 \subsection{Environment and Tasks}
 
-The environment included the robot, the collaboration board on top of a desk,
-and the participant standing in front of the board oposite to the robot in our
-lab (see Figure XYZ). The tasks were defined based on the HTN structure shown in
-Figure XYZ. For each task either the robot or the participant had to pick one of
-the corresponding pegs in their own inventory and place on the right spot
-colored and tagged same as the tag on the associated peg.
+The environment was set up in Human-Robot Interaction lab. and included the
+robot, the collaboration board on top of a desk, and the participant standing in
+front of the robot on the other side of the board (see Figure XYZ). One of the
+experimenters monitored the interactions using a live stream of a camera in a
+different room. The experimenter provided only the required perception, i.e.,
+decision on success or failure of the tasks for the robot, through the entire
+time of the collaboration (see Section \ref{sec-interaction-paradigms}). 
+
+The tasks were defined based on the HTN structure shown in Figure XYZ and were
+executed in a turn-taking fashion by either of the collaborators. For each task
+either the robot or the participant was responsible to pick up one of the
+corresponding pegs from their own inventory and place it on the right spot which
+was colored and tagged same as the associated peg.
 
 \section{Experimental Design}
 
@@ -1176,7 +1200,37 @@ colored and tagged same as the tag on the associated peg.
 
 \subsection{Hypothesis}
 
-\subsection{Setting and Conditions}
+The non/social functions of emotions impact a collaboration process. Human
+collaborators prefer to collaborate with others whose behaviors are influenced
+by these functions of emotions depending on the context. We developed seven
+hypotheses on positive influence of emotion-awareness and usefulness of emotion
+function during collaboration:
+
+\textit{\textbf{Hypothesis 1.}} Subjects will prefer to collaborate with the
+robot which is controlled by Affective Motivational Collaboration framework more
+than the robot which is controlled by Disco.
+
+\textit{\textbf{Hypothesis 2.}} Subjects will find a mutual understanding in the
+collaboration with the robot which is controlled by the AMC framework more than
+the robot controlled by Disco.
+
+\textit{\textbf{Hypothesis 3.}} Subjects will find working with the robot which
+is controlled by AMC framework less confusing than the robot controlled by
+Disco.
+
+\textit{\textbf{Hypothesis 4.}} Subjects will find the robot which is controlled
+by AMC framework understanding their goals more than the robot controlled by
+Disco.
+
+\textit{\textbf{Hypothesis 5.}} Subjects will find the robot which is controlled
+by AMC framework understanding their feelings more than the robot controlled by
+Disco.
+
+\textit{\textbf{Hypothesis 6.}} Subjects will find the robot which is controlled
+by AMC framework more helpful in compare to the robot controlled by Disco.
+
+\textit{\textbf{Hypothesis 7.}} Subjects will find the robot which is controlled
+by AMC framework more trustworthy than the robot controlled by Disco.
 
 \subsection{Procedure}
 
