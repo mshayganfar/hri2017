@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  14 SEP 2016 22:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  18 SEP 2016 16:54
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -1067,7 +1067,11 @@ Overfull \hbox (1.91785pt too wide) in paragraph at lines 1160--1162
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <9> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 1192.
-[6 <./figure/gameBoard.pdf>] (./HRI2017-MahniShayganfar.bbl
+[6 <./figure/gameBoard.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+(./HRI2017-MahniShayganfar.bbl
 Overfull \hbox (16.03096pt too wide) in paragraph at lines 1--1
 \T1/pcr/m/n/9 jsmith@affiliation.org\T1/ptm/m/n/9 ) and Julius P. Kumquat (The 
 Kumquat
@@ -1107,7 +1111,7 @@ ic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on HRI2017-MahniShayganfar.pdf (8 pages, 267059 bytes).
+Output written on HRI2017-MahniShayganfar.pdf (8 pages, 269307 bytes).
 PDF statistics:
  147 PDF objects out of 1000 (max. 8388607)
  103 compressed objects within 2 object streams
