@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  18 SEP 2016 16:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  20 SEP 2016 21:56
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -845,50 +845,50 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-LaTeX Font Info:    Try loading font information for U+msa on input line 176.
+LaTeX Font Info:    Try loading font information for U+msa on input line 178.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 176.
+LaTeX Font Info:    Try loading font information for U+msb on input line 178.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 176.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 178.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 176.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 178.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 176.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 178.
 
-Overfull \hbox (2.90771pt too wide) in paragraph at lines 178--189
+Overfull \hbox (2.90771pt too wide) in paragraph at lines 180--191
 \T1/ptm/m/n/9 emo-tional aware-ness and the un-der-ly-ing affect-driven pro-ces
 ses dur-
  []
 
 Excluding 'CCSXML' comment.
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 234.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 236.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 234.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 236.
 
 
 LaTeX Warning: Citation `rosenbloom:sigma-appraisal' on page \thepage  undefine
-d on input line 305.
+d on input line 307.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 322.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 324.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -900,7 +900,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.331 \includegraphics{fly}
+l.333 \includegraphics{fly}
                            
 I could not locate the file with any of these extensions:
 .png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
@@ -914,7 +914,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.337 \includegraphics[height=1in, width=1in]{fly}
+l.339 \includegraphics[height=1in, width=1in]{fly}
                                                   
 I could not locate the file with any of these extensions:
 .png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
@@ -922,19 +922,19 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <9> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 339.
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 341.
 
-Overfull \hbox (4.08873pt too wide) in paragraph at lines 342--342
+Overfull \hbox (4.08873pt too wide) in paragraph at lines 344--344
 []\secfnt AFFECTIVE MO-TI-VA-TIONAL COL-LAB-
  []
 
 
 LaTeX Warning: Citation `shayganfar:theory-overview' on page \thepage  undefine
-d on input line 345.
+d on input line 347.
 
 
 LaTeX Warning: File `figure/theory-general-croped.pdf' not found on input line 
-362.
+364.
 
 
 ! Package pdftex.def Error: File `figure/theory-general-croped.pdf' not found.
@@ -943,7 +943,7 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.362 ...twidth]{figure/theory-general-croped.pdf}
+l.364 ...twidth]{figure/theory-general-croped.pdf}
                                                   
 Using draft setting for this image.
 Try typing  <return>  to proceed.
@@ -951,10 +951,10 @@ If that doesn't work, type  X <return>  to quit.
 
 
 LaTeX Warning: Reference `sec:appraisal-process' on page \thepage  undefined on
- input line 376.
+ input line 378.
 
 
-Overfull \hbox (1.19711pt too wide) in paragraph at lines 416--428
+Overfull \hbox (1.19711pt too wide) in paragraph at lines 418--430
 [][]\T1/ptm/m/it/9 Motives \T1/ptm/m/n/9 are men-tal con-structs which can ini-
 ti-ate, di-rect and main-
  []
@@ -963,12 +963,12 @@ ti-ate, di-rect and main-
 Underfull \vbox (badness 1558) has occurred while \output is active []
 
  [2]
-Underfull \hbox (badness 10000) in paragraph at lines 450--455
+Underfull \hbox (badness 10000) in paragraph at lines 452--457
 
  []
 
 
-LaTeX Warning: File `figure/taskModel-croped.pdf' not found on input line 464.
+LaTeX Warning: File `figure/taskModel-croped.pdf' not found on input line 466.
 
 
 ! Package pdftex.def Error: File `figure/taskModel-croped.pdf' not found.
@@ -977,27 +977,27 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.464 ...ght=5.225cm]{figure/taskModel-croped.pdf}
+l.466 ...ght=5.225cm]{figure/taskModel-croped.pdf}
                                                   
 Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (6.20354pt too wide) in paragraph at lines 539--545
+Overfull \hbox (6.20354pt too wide) in paragraph at lines 541--547
 [][]\T1/ptm/m/it/9 getGoalStatus($\OML/cmm/m/it/9 g[]$\T1/ptm/m/it/9 ) \T1/ptm/
 m/n/9 re-turns whether $\OML/cmm/m/it/9 g[]$\T1/ptm/m/n/9 's sta-tus is \T1/ptm
 /m/sc/9 achieved, failed,
  []
 
 
-Overfull \hbox (2.28845pt too wide) in paragraph at lines 539--545
+Overfull \hbox (2.28845pt too wide) in paragraph at lines 541--547
 \T1/ptm/m/n/9 ex-am-ple, ``Add Pick-les'' is the cur-rent (fo-cused) goal and i
 t is \T1/ptm/m/sc/9 pend-
  []
 
 
-Overfull \hbox (16.89494pt too wide) in paragraph at lines 551--554
+Overfull \hbox (16.89494pt too wide) in paragraph at lines 553--556
 \T1/ptm/m/n/9 and all the pre-con-di-tions are \T1/ptm/m/sc/9 sat-is-fied\T1/pt
 m/m/n/9 , i.e., \T1/ptm/m/sc/9 pend-ing \T1/ptm/m/n/9 or \T1/ptm/m/sc/9 in prog
 ress
@@ -1005,81 +1005,73 @@ ress
 
 
 LaTeX Warning: Citation `shayganfar:appraisal-short' on page \thepage  undefine
-d on input line 605.
+d on input line 607.
 
 
 LaTeX Warning: Citation `shayganfar:emotional-awareness' on page \thepage  unde
-fined on input line 606.
+fined on input line 608.
 
 [3]
 
-LaTeX Warning: Command \textgreater invalid in math mode on input line 730.
+LaTeX Warning: Command \textgreater invalid in math mode on input line 732.
 
 
-Overfull \hbox (7.67711pt too wide) in paragraph at lines 736--746
+Overfull \hbox (7.67711pt too wide) in paragraph at lines 738--748
 \T1/ptm/m/n/9 comes -1 if the sta-tus of the cor-re-spond-ing goal is \T1/ptm/m
 /sc/9 failed, blocked\T1/ptm/m/n/9 ,
  []
 
 [4]
 LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <9> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 1028.
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 1030.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1028.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1030.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1028.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1030.
 
-Overfull \hbox (5.3784pt too wide) in paragraph at lines 1066--1076
+Overfull \hbox (5.3784pt too wide) in paragraph at lines 1068--1078
 \T1/ptm/m/n/9 de-ces-sors of a goal, $\OML/cmm/m/it/9 g[]$\T1/ptm/m/n/9 , are g
 oals that the col-lab-o-ra-tors should achieve
  []
 
 
 LaTeX Warning: Citation `shayganfar:emotional-awareness' on page \thepage  unde
-fined on input line 1088.
+fined on input line 1090.
 
 
 LaTeX Warning: Citation `shayganfar:appraisal-short' on page \thepage  undefine
-d on input line 1089.
+d on input line 1091.
 
 
 LaTeX Warning: Citation `shayganfar:goal-management' on page \thepage  undefine
-d on input line 1091.
+d on input line 1093.
 
 [5] <figure/collaborationStructure.pdf, id=40, 727.71875pt x 258.9675pt>
 File: figure/collaborationStructure.pdf Graphic file (type pdf)
 
 <use figure/collaborationStructure.pdf>
 Package pdftex.def Info: figure/collaborationStructure.pdf used on input line 1
-119.
+121.
 (pdftex.def)             Requested size: 504.0pt x 179.3595pt.
 
 <figure/gameBoard.pdf, id=41, 1838.87pt x 1057.9525pt>
 File: figure/gameBoard.pdf Graphic file (type pdf)
 
 <use figure/gameBoard.pdf>
-Package pdftex.def Info: figure/gameBoard.pdf used on input line 1160.
+Package pdftex.def Info: figure/gameBoard.pdf used on input line 1162.
 (pdftex.def)             Requested size: 241.91785pt x 139.1691pt.
 
-Overfull \hbox (1.91785pt too wide) in paragraph at lines 1160--1162
+Overfull \hbox (1.91785pt too wide) in paragraph at lines 1162--1164
  [][][] 
  []
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <9> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 1192.
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 1194.
 [6 <./figure/gameBoard.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2452) has occurred while \output is active []
 
-
-(./HRI2017-MahniShayganfar.bbl
-Overfull \hbox (16.03096pt too wide) in paragraph at lines 1--1
-\T1/pcr/m/n/9 jsmith@affiliation.org\T1/ptm/m/n/9 ) and Julius P. Kumquat (The 
-Kumquat
- []
-
-[7 <./figure/collaborationStructure.pdf>]) [8
-
-] (./HRI2017-MahniShayganfar.aux)
+ [7 <./figure/collaborationStructure.pdf>] (./HRI2017-MahniShayganfar.bbl) [8]
+(./HRI2017-MahniShayganfar.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1111,7 +1103,7 @@ ic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on HRI2017-MahniShayganfar.pdf (8 pages, 269307 bytes).
+Output written on HRI2017-MahniShayganfar.pdf (8 pages, 268930 bytes).
 PDF statistics:
  147 PDF objects out of 1000 (max. 8388607)
  103 compressed objects within 2 object streams
