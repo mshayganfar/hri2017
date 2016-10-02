@@ -373,46 +373,32 @@ Our focus is on the mechanisms depicted as mental processes in Figure
 \ref{fig:cpm} along with the mental states. Each mechanism includes one or
 more processes in our architecture. For instance, the \textit{Collaboration}
 mechanism includes processes such as \textit{Focus Shifting} and
-\textit{Constraint Management}, while as we discuss in Section
-\ref{sec:appraisal-process} the \textit{Appraisal} mechanism includes processes
-to compute the values for different appraisal variables. The \textit{mental
-states} includes self's (robot's) beliefs, intentions, motives, goals and
-emotion instances as well as the anticipated mental states of the other (human).
-The \textit{Collaboration} mechanism maintains constraints on actions, including
-task states and the ordering of tasks, and provides processes to update and
-monitor the shared plan. The \textit{Appraisal} mechanism is responsible for
-evaluating changes in the self's mental states, the anticipated mental states of
-the other, and the state of the collaboration environment. The \textit{Coping}
-mechanism provides the self with different coping strategies associated with
-changes in the self's mental states with respect to the state of the
-collaboration. The \textit{Motivation} mechanism operates whenever the self a)
-requires a new motive to overcome an internal impasse in an ongoing task, or b)
-wants to provide an external motive to the other when the other faces a problem
-in a task. The \textit{Theory of Mind} mechanism infers a model of the other's
-anticipated mental state. The self progressively updates this model during the
-collaboration.
+\textit{Constraint Management}, while the \textit{Appraisal} mechanism includes
+processes to compute the values for different appraisal variables. The
+\textit{mental states} includes self's (robot's) beliefs, intentions, motives,
+goals and emotion instances as well as the anticipated mental states of the
+other (human). The \textit{Collaboration} mechanism maintains constraints on
+actions, including task states and the ordering of tasks, and provides processes
+to update and monitor the shared plan. The \textit{Appraisal} mechanism is
+responsible for evaluating changes in the self's mental states, the anticipated
+mental states of the other, and the state of the collaboration environment. The
+\textit{Coping} mechanism provides the self with different coping strategies
+associated with changes in the self's mental states with respect to the state
+of the collaboration. The \textit{Motivation} mechanism operates whenever the
+self a) requires a new motive to overcome an internal impasse in an ongoing
+task, or b) wants to provide an external motive to the other when the other
+faces a problem in a task. The \textit{Theory of Mind} mechanism infers a model
+of the other's anticipated mental state. The self progressively updates this
+model during the collaboration.
 
 \subsection{Mental States}
 \label{sec:mental-states}
-A brief description of mental states is provided as prerequisite knowledge for
-understanding the appraisal processes. The mental states shown in Figure
-\ref{fig:cpm} comprise the knowledge base required for all the mechanisms in the
-overall model. Mental states are conscious states of mind providing the content
-for cognitive processes. These mental states possess attributes, each of which
-provides a unique interpretation of the related cognitive entities. The self
-uses these attributes whenever there is an arbitration in the internal cognitive
-processes. We only describe some of the attributes of beliefs and motives in
-this paper, since they are used in our appraisal algorithms.
-
-\textit{Beliefs} are a crucial part of the mental states. Beliefs have
-attributes and they impact different processes of the framework such as the
-evaluation of an external event by the Appraisal mechanism, and updates to the
-collaboration plan. We use three belief attributes in the Appraisal mechanism.
-Belief \textit{strength} is about how strongly the self holds salient beliefs
-about an object, an entity, or an anticipated behavior. The \textit{saliency} of
-a belief is a cognitive attribute that pertains to how easily the self becomes
-aware of a belief. The \textit{persistence} of a belief refers to how resistant
-the belief is to changes.
+The mental states shown in Figure \ref{fig:cpm} comprise the knowledge base
+required for all the mechanisms in the overall model. Mental states are
+conscious states of mind providing the content for cognitive processes. These
+mental states possess attributes, each of which provides a unique interpretation
+of the related cognitive entities. The self uses these attributes whenever there
+is an arbitration in the internal cognitive processes.
 
 \textit{Motives} are mental constructs which can initiate, direct and maintain
 goal-directed behaviors. They are created by the emotion-regulated Motivation
@@ -421,49 +407,31 @@ according to: a) its own emotional states, b) its own private goal, c) the
 collaboration (shared) goal, and d) other's anticipated beliefs. Motives possess
 a set of attributes. The Motivation mechanism compares motives based on the
 quality of these attributes and chooses the one which is the most related to the
-current state of the collaboration. We use two motive attributes in Appraisal
-mechanisms. The \textit{importance} of a motive is determined by the
-corresponding beliefs about the effects of achieving or not achieving the
-associated goal. The \textit{urgency} of a motive defines how much time the self
-has to acknowledge and address that motive before it is too late.
+current state of the collaboration.
 
 \textit{Intentions} are mental constructs directed at goals and future actions.
 They play an essential role in taking actions according to the collaboration
-plan as well as behavior selection in the Coping mechanism. Intentions are
-also involved in selecting intention-related strategies, e.g., planning, seeking
-instrumental support and procrastination. 
-
-% Intentions possess a set of
-% attributes, i.e., \textit{Temporal Status, Direct Experience, Certainty,
-% Ambivalence, Affective-Deliberative Consistency} which moderate the consistency
-% between intention and behavior \cite{cooke:intention-behavior-consistency}. The
-% details about these attributes are beyond the scope of this paper.
+plan as well as behavior selection in the Coping mechanism.
 
 \textit{Goals} help the robot to create and update its collaboration plan
 according to the current private and shared goal content and structure. Goals
 direct the formation of intentions to take appropriate corresponding actions
 during collaboration. 
 
-% Goals also drive the Motivation mechanism to generate
-% required motive(s). The details about goal's attributes are beyond the scope of
-% this paper.
-
 \textit{Emotions} in mental states are emotion instances that are elicited by
-the Appraisal mechanism, e.g., \textit{Joy, Anger, Hope, Worry}. These emotion
-instances include the robot's own emotions as well as the anticipated emotions
-of the other which are created with the help of the processes in the Theory of
-Mind mechanism. \\
+the Appraisal mechanism, e.g., \textit{Joy, Anger, Hope, Worry}. 
 
 \section{Collaboration}
 The Collaboration mechanism constructs a hierarchy of goals associated with
-tasks in a hierarchical task network (see Figure \ref{fig:taskModel}), and also
-maintains the constraints and other required details of the collaboration
-including the inputs and outputs of individual tasks, the \textit{preconditions}
-(specifying whether it is appropriate to perform a task), and the
-\textit{postconditions} (specifying whether a just-completed task was
-successful). Collaboration also monitors the focus of attention, which
-determines the salient objects, properties and relations at each point, and
-shifts the focus of attention during the interaction.
+tasks in a hierarchical task network (see Figure
+\ref{fig:collaboration_structure}), and also maintains the constraints and other
+required details of the collaboration including the inputs and outputs of
+individual tasks, the \textit{preconditions} (specifying whether it is
+appropriate to perform a task), and the \textit{postconditions} (specifying
+whether a just-completed task was successful). Collaboration also monitors the
+focus of attention, which determines the salient objects, properties and
+relations at each point, and shifts the focus of attention during the
+interaction.
 
 \section{Appraisal Processes}
 
