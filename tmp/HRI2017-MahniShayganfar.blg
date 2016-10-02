@@ -3,51 +3,88 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: HRI2017-MahniShayganfar.aux
 The style file: abbrv.bst
 Database file #1: mshayganfar.bib
-Warning--I didn't find a database entry for "rosenbloom:sigma-appraisal"
-Warning--I didn't find a database entry for "shayganfar:theory-overview"
-Warning--I didn't find a database entry for "shayganfar:appraisal-short"
-Warning--I didn't find a database entry for "shayganfar:emotional-awareness"
-Warning--I didn't find a database entry for "shayganfar:goal-management"
-Warning--can't use both volume and number fields in hudlicka:emotinos-reasons
-You've used 17 entries,
+Name 1 in "Cameron, D., and Fernando, S., and Collins, E.C., and Millings, A., and Moore, R.K., and Sharkey, A., and Evers, V., and Prescott, T.," has a comma at the end for entry cameron:expression-hri
+while executing---line 1049 of file abbrv.bst
+Name 2 in "Cameron, D., and Fernando, S., and Collins, E.C., and Millings, A., and Moore, R.K., and Sharkey, A., and Evers, V., and Prescott, T.," has a comma at the end for entry cameron:expression-hri
+while executing---line 1049 of file abbrv.bst
+Name 3 in "Cameron, D., and Fernando, S., and Collins, E.C., and Millings, A., and Moore, R.K., and Sharkey, A., and Evers, V., and Prescott, T.," has a comma at the end for entry cameron:expression-hri
+while executing---line 1049 of file abbrv.bst
+Name 4 in "Cameron, D., and Fernando, S., and Collins, E.C., and Millings, A., and Moore, R.K., and Sharkey, A., and Evers, V., and Prescott, T.," has a comma at the end for entry cameron:expression-hri
+while executing---line 1049 of file abbrv.bst
+Name 5 in "Cameron, D., and Fernando, S., and Collins, E.C., and Millings, A., and Moore, R.K., and Sharkey, A., and Evers, V., and Prescott, T.," has a comma at the end for entry cameron:expression-hri
+while executing---line 1049 of file abbrv.bst
+Name 6 in "Cameron, D., and Fernando, S., and Collins, E.C., and Millings, A., and Moore, R.K., and Sharkey, A., and Evers, V., and Prescott, T.," has a comma at the end for entry cameron:expression-hri
+while executing---line 1049 of file abbrv.bst
+Name 7 in "Cameron, D., and Fernando, S., and Collins, E.C., and Millings, A., and Moore, R.K., and Sharkey, A., and Evers, V., and Prescott, T.," has a comma at the end for entry cameron:expression-hri
+while executing---line 1049 of file abbrv.bst
+Name 8 in "Cameron, D., and Fernando, S., and Collins, E.C., and Millings, A., and Moore, R.K., and Sharkey, A., and Evers, V., and Prescott, T.," has a comma at the end for entry cameron:expression-hri
+while executing---line 1049 of file abbrv.bst
+Warning--can't use both author and editor fields in breazeal:sociable-interactive-robots
+Name 1 in "Cameron, D., and Fernando, S., and Collins, E.C., and Millings, A., and Moore, R.K., and Sharkey, A., and Evers, V., and Prescott, T.," has a comma at the end for entry cameron:expression-hri
+while executing---line 1090 of file abbrv.bst
+Name 2 in "Cameron, D., and Fernando, S., and Collins, E.C., and Millings, A., and Moore, R.K., and Sharkey, A., and Evers, V., and Prescott, T.," has a comma at the end for entry cameron:expression-hri
+while executing---line 1090 of file abbrv.bst
+Name 3 in "Cameron, D., and Fernando, S., and Collins, E.C., and Millings, A., and Moore, R.K., and Sharkey, A., and Evers, V., and Prescott, T.," has a comma at the end for entry cameron:expression-hri
+while executing---line 1090 of file abbrv.bst
+Name 4 in "Cameron, D., and Fernando, S., and Collins, E.C., and Millings, A., and Moore, R.K., and Sharkey, A., and Evers, V., and Prescott, T.," has a comma at the end for entry cameron:expression-hri
+while executing---line 1090 of file abbrv.bst
+Name 5 in "Cameron, D., and Fernando, S., and Collins, E.C., and Millings, A., and Moore, R.K., and Sharkey, A., and Evers, V., and Prescott, T.," has a comma at the end for entry cameron:expression-hri
+while executing---line 1090 of file abbrv.bst
+Name 6 in "Cameron, D., and Fernando, S., and Collins, E.C., and Millings, A., and Moore, R.K., and Sharkey, A., and Evers, V., and Prescott, T.," has a comma at the end for entry cameron:expression-hri
+while executing---line 1090 of file abbrv.bst
+Name 7 in "Cameron, D., and Fernando, S., and Collins, E.C., and Millings, A., and Moore, R.K., and Sharkey, A., and Evers, V., and Prescott, T.," has a comma at the end for entry cameron:expression-hri
+while executing---line 1090 of file abbrv.bst
+Name 8 in "Cameron, D., and Fernando, S., and Collins, E.C., and Millings, A., and Moore, R.K., and Sharkey, A., and Evers, V., and Prescott, T.," has a comma at the end for entry cameron:expression-hri
+while executing---line 1090 of file abbrv.bst
+Too many commas in name 1 of "Rafael A. Calvo, Sidney D'Mello, Jonathan Gratch, Arvid Kappas" for entry paiva:emotion-modeling
+while executing---line 1090 of file abbrv.bst
+Warning--empty title in shayganfar:emotional-awareness
+Warning--empty journal in shayganfar:emotional-awareness
+Warning--empty title in shayganfar:theory-overview
+Warning--empty booktitle in shayganfar:theory-overview
+Warning--empty title in shayganfar:appraisal-short
+Warning--empty booktitle in shayganfar:appraisal-short
+Warning--empty title in shayganfar:goal-management
+Warning--empty booktitle in shayganfar:goal-management
+You've used 29 entries,
             2118 wiz_defined-function locations,
-            613 strings with 6952 characters,
-and the built_in function-call counts, 6216 in all, are:
-= -- 617
-> -- 257
-< -- 8
-+ -- 102
-- -- 82
-* -- 414
-:= -- 992
-add.period$ -- 55
-call.type$ -- 17
-change.case$ -- 88
+            653 strings with 8900 characters,
+and the built_in function-call counts, 10155 in all, are:
+= -- 970
+> -- 480
+< -- 7
++ -- 195
+- -- 158
+* -- 698
+:= -- 1648
+add.period$ -- 88
+call.type$ -- 29
+change.case$ -- 157
 chr.to.int$ -- 0
-cite$ -- 18
-duplicate$ -- 262
-empty$ -- 523
-format.name$ -- 82
-if$ -- 1347
+cite$ -- 38
+duplicate$ -- 412
+empty$ -- 837
+format.name$ -- 158
+if$ -- 2160
 int.to.chr$ -- 0
-int.to.str$ -- 17
-missing$ -- 19
-newline$ -- 88
-num.names$ -- 38
-pop$ -- 104
+int.to.str$ -- 29
+missing$ -- 31
+newline$ -- 143
+num.names$ -- 62
+pop$ -- 212
 preamble$ -- 1
-purify$ -- 73
+purify$ -- 135
 quote$ -- 0
-skip$ -- 186
+skip$ -- 278
 stack$ -- 0
-substring$ -- 405
-swap$ -- 71
-text.length$ -- 8
+substring$ -- 580
+swap$ -- 93
+text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 64
-warning$ -- 1
-while$ -- 65
-width$ -- 19
-write$ -- 193
-(There were 6 warnings)
+type$ -- 110
+warning$ -- 9
+while$ -- 94
+width$ -- 31
+write$ -- 305
+(There were 17 error messages)

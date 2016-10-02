@@ -252,41 +252,29 @@ integral part of humans' environment to accomplish their industrial and
 household tasks. In these environments, humans will be involved in robots'
 operations and decision-making processes. The involvement of humans influences
 the efficiency of robots' interaction and performance, and makes the robots
-sensitive to humans' cognitive abilities and behaviors.
+sensitive to humans' cognitive abilities and internal states.
 
 We believe that collaborative robots need to take into account humans' internal
 states while making decisions during collaboration. Humans express emotions to
-reveal their internal states in social context including collaboration [cite].
-Due to such expressions robot's emotional-awareness can improve the quality of
-collaboration in terms of humans' perception of performance. Hence,
+reveal their internal states in social contexts including collaboration
+\cite{breazeal:sociable-interactive-robots}. Due to the existence of such
+expressions robot's emotional-awareness can improve the quality of collaboration
+in terms of humans' perception of performance and preferences. Hence,
 collaborative robots require to include affect-driven mechanisms in their
-decision making processes. Our aim in this work was to study different aspects
-of humans' preferences collaborating with an emotion-aware and an
-emotion-ignorant robot, and the importance of emotional awareness and the
-underlying affect-driven processes in human-robot collaboration
+decision making processes to be able to interpret and generate appropriate
+responses and behaviors. Our aim in this work was to study the importance of
+emotional awareness and the underlying affect-driven processes in human-robot
+collaboration. We examined how emotional-awareness impacts different aspects of
+humans' preferences by comparing the results from our participants collaborating
+with an emotion-aware and an emotion-ignorant robot.
 
-This work is implemented as part of a larger effort to assess robots capable of
-generating and recognizing emotions and acting upon them in order to be better
-collaborators. This work is part of the development of \textit{Affective
-Motivational Collaboration Theory} which is built on the foundations of the
-\textit{SharedPlans} theory of collaboration \cite{grosz:plans-discourse} and
-the \textit{cognitive appraisal} theory of emotions
-\cite{gratch:domain-independent}.
-
-There are several appraisal models (e.g., EMA \cite{marsella:ema-process-model})
-contributing in different applications such as social sciences, virtual agents,
-and robotics. However, none of these models have focused on the appraisal
-processes during collaboration. We believe appraisal plays a key role in
-collaboration due to its regulatory and evaluative nature. Also, collaboration
-induces some changes to underlying appraisal processes due to its unique nature.
-For instance, although the appraisal models mostly use utility to compute the
-relevance of an event, we have found new cognitive components involved in
-determining utility because of the influence of the collaboration. These
-components, such as the recurrence of a belief by the human collaborator or the
-influence of the human collaborator's perceived emotion on the robot's decisions
-emphasize the fact that collaboration requires different procedures in appraisal
-processes. In this paper, we provide the relevance and controllability
-appraisals of an event in the collaboration context.
+This work is implemented as part of a larger effort to assess affect-driven
+collaborative robots which are capable of generating and recognizing emotions in
+order to be better collaborators. This work is based on the development of
+\textit{Affective Motivational Collaboration Theory} which is built on the
+foundations of the \textit{SharedPlans} theory of collaboration
+\cite{grosz:plans-discourse} and the \textit{cognitive appraisal} theory of
+emotions \cite{gratch:domain-independent}.
 
 % After discussing related works, we briefly introduce the Affective Motivational
 % Collaboration Theory, focusing on the collaboration and appraisal mechanisms as
@@ -298,57 +286,62 @@ appraisals of an event in the collaboration context.
 % \ref{sec:user-study}.
 
 \section{Related Work}
-Our work builds on the general notions of appraisal theory
-\cite{gratch:domain-independent,marsella:computational,scherer:sequential-appraisal-process,scherer:appraisal-processes},
-but is focused on its application in human-robot collaboration. Computational
-appraisal models have been applied to a variety of uses in psychology, robotics,
-AI, and cognitive science. For instance, in \cite{marsella:ema-process-model}
-EMA is used to generate specific predictions about how human subjects will
-appraise and cope with emotional situations. Furthermore, appraisal theory has
-been used in robots' decision making \cite{castro:autonomous-robot-fear}, or in
-their cognitive systems
-\cite{hudlicka:emotinos-reasons,marinier:emotion-reinforcement}. In the virtual
-agents community, empathy and affective decision-making is a research topic that
-has received much attention in the last two decades
-\cite{scott:modeling-empathy-agent,paiva:agent-care,pontier:women-robot-men,velasquez:emotions-motivations-agents}.
-However, EMA and other work in artificial intelligence and robotics which apply
-appraisal theory do not focus on the dynamics of collaborative contexts
-\cite{adam:bdi-emotional-companion,kim:model-hri-appraisal,marsella:ema-process-model,rosenbloom:sigma-appraisal}.
 
-The computational collaboration model in our work is strongly influenced by the
-SharedPlans theory \cite{grosz:plans-discourse}. However, our algorithms are
-also compatible with other collaboration theories, e.g., Joint Intentions theory
-\cite{cohen:teamwork}, or STEAM \cite{tambe:flexible-teamwork}. These theories
-have been extensively used to examine and describe teamwork and collaboration.
-Yet, collaboration and emotion theories have never been combined, as they are in
-our work. We believe a systematic integration of collaboration theories and
-appraisal theory can help explain the underlying processes of collaboration
-structure.
+There are many research areas, including robotics and autonomous agents, that
+employ the structure and/or functions of emotions in their work with a variety
+of motivations behind modeling emotions
+\cite{wehrle:motivations-modeling-emotion}. In
+\cite{breazeal:sociable-interactive-robots} authros surveyed some of the
+principle research in social robotics and its applications in Human-Robot
+Interaciton. We can see the application of emotion theories in designing robots
+capable of learning from humans \cite{breazeal:expressive-behavior}, robots
+capable of expressing emotions \cite{cameron:expression-hri}
+\cite{shayganfar:methodology} and social behaviors
+\cite{paiva:emotion-modeling}, as well as robots which can convey certain types
+of emotion products, e.g., empathy \cite{leite:empathy-hri}. There are also
+several works in which researchers have explored the human's affective state as
+a mechanism to adapt the robot's behaviors during the interaction
+\cite{breazeal:sociable-robot} \cite{liu:affect-robot-behavior}.
 
-\begin{table*}
-\centering
-\caption{Some Typical Commands}
-\begin{tabular}{|c|c|l|} \hline
-Command&A Number&Comments\\ \hline
-\texttt{{\char'134}alignauthor} & 100& Author alignment\\ \hline
-\texttt{{\char'134}numberofauthors}& 200& Author enumeration\\ \hline
-\texttt{{\char'134}table}& 300 & For tables\\ \hline
-\texttt{{\char'134}table*}& 400& For wider tables\\ \hline\end{tabular}
-\end{table*}
-% end the environment with {table*}, NOTE not {table}!
+Many of the computational models of emotions and their applications are derived
+from appraisal theories of emotion making appraisal as the central process in
+their architectures \cite{adam:bdi-emotional-companion}
+\cite{marinier:behavior-emotion} \cite{marsella:ema-process-model}
+\cite{si:modeling-appraisal-tom-journal}. Appraisal is usually modeled as the
+cause of emotion being derived via simple rules on a set of appraisal variables.
+In robotics, appraisal theory has been used to establish and maintain a better
+interaction between a robot and a human \cite{castro:autonomous-robot-fear}
+\cite{kim:model-hri-appraisal} \cite{pontier:women-robot-men}
+\cite{vogiatzis:robot-museum}. There are other models of emotions that have been
+also used in robotics and human-robot interaction \cite{klug:emotion-based-hri}
+\cite{lim:mei-motherese-ei} \cite{zhang:service-robot-dimensional}.
 
-\begin{figure}
-\centering
-\includegraphics{fly}
-\caption{A sample black and white graphic.}
-\end{figure}
+There are also other examples that researchers focus on the applications of
+emotions in human-robot collaboration. For instance, in
+\cite{guha:emotion-feedback} researchers use robot's emotional expression as a
+feedback to the human to improve the quality of collaboraiton. In
+\cite{looije:affective-collaboration-safety} authors introduce some theoretical
+concepts that affective collaborative robots can enhance joint human-robot
+performance by adapting the robot's role and interaction to the human's
+affective state. This work does not provide any details of implementation and
+how these theoretical concepts can lead to a better human-robot collaboration.
+However, little effort has been put on development of functions of emotions and
+their applications in decision making and emotional-awareness processes of
+collaborative robots.
 
-\begin{figure}
-\centering
-\includegraphics[height=1in, width=1in]{fly}
-\caption{A sample black and white graphic
-that has been resized with the \texttt{includegraphics} command.}
-\end{figure}
+
+%\begin{figure}
+%\centering
+%\includegraphics{fly}
+%\caption{A sample black and white graphic.}
+%\end{figure}
+
+%\begin{figure}
+%\centering
+%\includegraphics[height=1in, width=1in]{fly}
+%\caption{A sample black and white graphic
+%that has been resized with the \texttt{includegraphics} command.}
+%\end{figure}
  
 \section{Affective Motivational Collaboration Theory}
 Affective Motivational Collaboration Theory deals with the interpretation and

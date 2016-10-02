@@ -6,10 +6,31 @@ C.~Adam and E.~Lorini.
 \newblock In {\em Workshop on Agents and multi-agent Systems for AAL and
   e-HEALTH (PAAMS)}, volume 430, pages 66--78. Springer, 2014.
 
-\bibitem{cohen:teamwork}
-P.~Cohen and H.~J. Levesque.
-\newblock {\em Teamwork}.
-\newblock SRI International, 1991.
+\bibitem{breazeal:sociable-robot}
+C.~Breazeal.
+\newblock {\em Designing Sociable Robots}.
+\newblock MIT Press, 2002.
+
+\bibitem{breazeal:expressive-behavior}
+C.~Breazeal.
+\newblock Role of expressive behaviour for robots that learn from people.
+\newblock {\em Philosophical transactions of the Royal Society of London.
+  Series B, Biological sciences}, 364(1535):3527--38, 2009.
+
+\bibitem{breazeal:sociable-interactive-robots}
+C.~Breazeal, A.~Takanishi, and T.~Kobayashi.
+\newblock {\em Social Robots that Interact with People}, pages 1349--1369.
+\newblock Springer Berlin Heidelberg, Berlin, Heidelberg, 2008.
+
+\bibitem{cameron:expression-hri}
+D.~Cameron, S.~Fernando, E.~Collins, A.~Millings, R.~Moore, A.~Sharkey,
+  V.~Evers, and T.~Prescott.
+\newblock Presence of life-like robot expressions influences
+  children{\textquoteright}s enjoyment of human-robot interactions in the
+  field.
+\newblock In {\em 4th International symposium on New Frontiers in Human-Robot
+  Interaction.}, Canterbury, UK, 2015. M. Salem, A. Weiss, P. Baxter, \& K.
+  Dautenhahn (Eds.).
 
 \bibitem{castro:autonomous-robot-fear}
 A.~C. Gonzalez, M.~Malfaz, and M.~A. Salichs.
@@ -18,7 +39,7 @@ A.~C. Gonzalez, M.~Malfaz, and M.~A. Salichs.
   2013.
 
 \bibitem{gratch:domain-independent}
-J.~Gratch and S.~C.Marsella.
+J.~Gratch and S.~C. Marsella.
 \newblock A domain-independent framework for modeling emotion.
 \newblock {\em Cognitive Systems Research}, 5(4):269--306, 2004.
 
@@ -28,17 +49,11 @@ B.~J. Grosz and C.~L. Sidner.
 \newblock In P.~R. Cohen, J.~Morgan, and M.~E. Pollack, editors, {\em
   Intentions in Communication}, pages 417--444. MIT Press, Cambridge, MA, 1990.
 
-\bibitem{hudlicka:emotinos-reasons}
-E.~Hudlicka.
-\newblock Reasons for emotinos: Modeling emotinos in integrated cognitive
-  systems.
-\newblock In W.~D. Gary, editor, {\em Integrated Models of Cognitive Systems},
-  volume~59, pages 1--37. New York: Oxford University Press, 2007.
-
-\bibitem{marinier:emotion-reinforcement}
-R.~P.~M. III and J.~E. Laird.
-\newblock Emotion-driven reinforcement learning.
-\newblock In {\em CogSci 2008}, 2008.
+\bibitem{guha:emotion-feedback}
+A.~I. Guha and S.~Tellex.
+\newblock {Towards Meaningful Human-Robot Collaboration on Object Placement}.
+\newblock In {\em {RSS Workshop on Planning for Human-Robot Interaction: Shared
+  Autonomy and Collaborative Robotics}}, 2016.
 
 \bibitem{kim:model-hri-appraisal}
 H.-R. Kim and D.-S. Kwon.
@@ -47,30 +62,54 @@ H.-R. Kim and D.-S. Kwon.
 \newblock {\em Journal of Intelligent and Robotic Systems}, 60(2):263--283,
   2010.
 
+\bibitem{klug:emotion-based-hri}
+M.~Klug and A.~Zell.
+\newblock Emotion-based human-robot-interaction.
+\newblock In {\em IEEE 9th International Conference on Computational
+  Cybernetics (ICCC)}, 2013.
+
+\bibitem{leite:empathy-hri}
+I.~Leite, A.~Pereira, S.~Mascarenhas, C.~Martinho, R.~Prada, and A.~Paiva.
+\newblock The influence of empathy in human-robot relations.
+\newblock {\em International Journal of Human-Computer Studies},
+  71(3):250--260, 2013.
+
+\bibitem{lim:mei-motherese-ei}
+A.~Lim and H.~G. Okuno.
+\newblock The mei robot: Towards using motherese to develop multimodal
+  emotional intelligence.
+\newblock {\em IEEE Transactions Autonomous Mental Development}, 6(2):126--138,
+  2014.
+
+\bibitem{liu:affect-robot-behavior}
+C.~Liu and N.~Sarkar.
+\newblock Online affect detection and robot behavior adaptation for
+  intervention of children with autism.
+\newblock {\em IEEE TRANSACTIONS ON ROBOTICS}, 24(4):883--896, 2008.
+
+\bibitem{looije:affective-collaboration-safety}
+R.~Looije, M.~Neerincx, and G.-J. Kruijff.
+\newblock Affective collaborative robots for safety & crisis management in the
+  field.
+\newblock In {\em Proceedings of the 4th International Conference on
+  Information Systems for Crisis Response and Management (ISCRAM 2007)}.
+  ISCRAM, 5 2007.
+
+\bibitem{marinier:behavior-emotion}
+R.~P. {Marinier III}, J.~E. Laird, and R.~L. Lewis.
+\newblock A computational unification of cognitive behavior and emotion.
+\newblock {\em Cognitive System Research}, 10(1):48--69, March 2009.
+
 \bibitem{marsella:ema-process-model}
 S.~C. Marsella and J.~Gratch.
 \newblock {EMA}: A process model of appraisal dynamics.
 \newblock {\em Cognitive Systems Research}, 10(1):70--90, March 2009.
 
-\bibitem{marsella:computational}
-S.~C. Marsella, J.~Gratch, and P.~Petta.
-\newblock Computational models of emotion.
-\newblock In {\em Blueprint for Affective Computing (Series in Affective
-  Science)}. Oxford University Press, Oxford, 2010.
-
-\bibitem{scott:modeling-empathy-agent}
-S.~W. McQuiggan and J.~C. Lester.
-\newblock Modeling and evaluating empathy in embodied companion agents.
-\newblock {\em International Journal of Human-Computer Studies},
-  65(4):348--360, 2007.
-
-\bibitem{paiva:agent-care}
-A.~Paiva, J.~Dias, D.~Sobral, R.~Aylett, P.~Sobreperez, S.~Woods, C.~Zoll, and
-  L.~Hall.
-\newblock Caring for agents and agents that care: Building empathic relations
-  with synthetic agents.
-\newblock In {\em Proceedings of the Third International Joint Conference on
-  Autonomous Agents and Multiagent Systems-Volume 1}, pages 194--201, 2004.
+\bibitem{paiva:emotion-modeling}
+A.~Paiva, I.~Leite, and T.~Ribeiro.
+\newblock Emotion modeling for sociable robots.
+\newblock In J.~G. A.~K. Rafael A.~Calvo, Sidney~D'Mello, editor, {\em Handbook
+  of Affective Computing}, pages 296--308. Oxford University Press, 2014.
 
 \bibitem{pontier:women-robot-men}
 M.~Pontier and J.~F. Hoorn.
@@ -78,26 +117,53 @@ M.~Pontier and J.~F. Hoorn.
 \newblock In {\em International Conference on Agents and Artificial
   Intelligence (ICAART-2)}, pages 496--504, 2013.
 
-\bibitem{scherer:sequential-appraisal-process}
-K.~R. Scherer.
-\newblock On the sequential nature of appraisal processes: Indirect evidence
-  from a recognition task.
-\newblock {\em Cognition \& Emotion}, 13(6):763--793, 1999.
-
 \bibitem{scherer:appraisal-processes}
 K.~R. Scherer, A.~Schorr, and T.~Johnstone.
 \newblock {\em Appraisal Processes in Emotion: Theory, Methods, Research}.
 \newblock Oxford University Press, 2001.
 
-\bibitem{tambe:flexible-teamwork}
-M.~Tambe.
-\newblock Towards flexible teamwork.
-\newblock {\em Journal of Artificial Intelligence Research}, 7:83--124, 1997.
+\bibitem{shayganfar:methodology}
+M.~Shayganfar, C.~Rich, and C.~L. Sidner.
+\newblock A design methodology for expressing emotion on robot faces.
+\newblock In {\em IROS}, pages 4577--4583. IEEE, 2012.
 
-\bibitem{velasquez:emotions-motivations-agents}
-J.~D. Vel$\grave{a}$squez.
-\newblock Modeling emotions and other motivations in synthetic agents.
-\newblock In {\em Proceedings of the 14th Nnational Conference on Artificial
-  Intelligence AAAI-97}, pages 10--15, 1997.
+\bibitem{si:modeling-appraisal-tom-journal}
+M.~Si, S.~C. Marsella, and D.~V. Pynadath.
+\newblock Modeling appraisal in theory of mind reasoning.
+\newblock {\em Autonomous Agents and Multi-Agent Systems}, 20(1):14--31, 2010.
+
+\bibitem{shayganfar:emotional-awareness}
+{Suppressed for Anonymity}.
+\newblock 2015.
+
+\bibitem{shayganfar:theory-overview}
+{Suppressed for Anonymity}.
+\newblock 2016.
+
+\bibitem{shayganfar:appraisal-short}
+{Suppressed for Anonymity}.
+\newblock 2016.
+
+\bibitem{shayganfar:goal-management}
+{Suppressed for Anonymity}.
+\newblock 2016.
+
+\bibitem{vogiatzis:robot-museum}
+D.~Vogiatzis, C.~Spyropoulos, V.~Karkaletsis, Z.~Kasap, C.~Matheson, and
+  O.~Deroo.
+\newblock An affective robot guide to museums.
+\newblock In {\em Proceedings of the 4th International Workshop on
+  Human-Computer Conversation}, 2008.
+
+\bibitem{wehrle:motivations-modeling-emotion}
+T.~Wehrle.
+\newblock Motivations behind modeling emotional agents: Whose emotion does your
+  robot have?, 1998.
+
+\bibitem{zhang:service-robot-dimensional}
+T.~Zhang, D.~B. Kaber, B.~Zhu, M.~Swangnetr, P.~Mosaly, and L.~Hodge.
+\newblock Service robot feature design effects on user perceptions and
+  emotional responses.
+\newblock {\em Intelligent Service Robotics}, 3(2):73--88, 2010.
 
 \end{thebibliography}
