@@ -52,6 +52,8 @@
 \usepackage[noend]{algpseudocode}
 \usepackage{algorithm}
 \usepackage{enumitem, kantlipsum}
+\usepackage{adjustbox}
+\usepackage{multirow}
 
 % Use the postscript times font!
 \usepackage{times}
@@ -242,9 +244,6 @@ an emotion-aware robot during collaboration.
 \keywords{Human-Robot Collaboration, Affect-Driven Processes, Emotion-Awareness}
 
 \section{Introduction}
-% Sousa in The Rationality of Emotion \cite{sousa:rationality-emotion}
-% makes the case for claiming that humans are capable of rationality largely
-% because they are creatures with emotions. 
 The idea of robots or other intelligent agents living in a human environment has
 been a persistent dream from science fiction books to artificial intelligence
 and robotic laboratories. Collaborative robots are expected to become an
@@ -276,18 +275,9 @@ foundations of the \textit{SharedPlans} theory of collaboration
 \cite{grosz:plans-discourse} and the \textit{cognitive appraisal} theory of
 emotions \cite{gratch:domain-independent}.
 
-% After discussing related works, we briefly introduce the Affective Motivational
-% Collaboration Theory, focusing on the collaboration and appraisal mechanisms as
-% well as mental states. We then provide more details about the graph
-% representation of the robot's mental state. Next, we describe the algorithms we
-% developed to compute the value of four crucial appraisal variables. To compare
-% the results from our algorithms with humans' decisions we have conducted a user
-% study using crowd sourcing; the results are provided in Section
-% \ref{sec:user-study}.
-
 \section{Related Work}
 
-There are many research areas, including robotics and autonomous agents, that
+There are many research areas, including robotics and autonomo-us agents, that
 employ the structure and/or functions of emotions in their work with a variety
 of motivations behind modeling emotions
 \cite{wehrle:motivations-modeling-emotion}. In
@@ -309,7 +299,8 @@ a mechanism to adapt the robot's behaviors during the interaction
   \caption{{\fontsize{9}{9}\selectfont Computational framework based on
   [title suppressed for anonymity] theory (arrows indicate primary influences
   between mechanisms and data flow).}}
-  \label{fig:cpm}
+  \vspace*{-5mm}
+  \label{fig:framework}
 \end{figure*}
 
 Many of the computational models of emotions and their applications are derived
@@ -338,156 +329,80 @@ However, little effort has been put on development of functions of emotions and
 their applications in decision making and emotional-awareness processes of
 collaborative robots.
 
+\section{Implementation}
+The implementation of this user-study included two separated parts. The first
+part incorporated the [Title Suppressed For Anony-mity] Framework consisting of
+all Mental Processes (see left-side of Figure \ref{fig:framework}) briefly
+described in Section \ref{sec:theory}. The second part was implemented to
+recieve action commands from the framework and forwarding them to the robot to
+control joints and actuators (see right-side of Figure \ref{fig:framework}).
 
-\section{Affective Motivational Collaboration Theory}
-Affective Motivational Collaboration Theory deals with the interpretation and
-prediction of observable behaviors in a dyadic collaboration
-\cite{shayganfar:theory-overview}. The theory focuses on the processes regulated
-by emotional states. The observable behaviors represent the outcome of reactive
-and deliberative processes related to the interpretation of the self's
-relationship to the environment. Affective Motivational Collaboration Theory
-aims to explain both rapid emotional reactions to events as well as slower, more
-deliberative responses. The reactive and deliberative processes are triggered by
-two types of events: \textit{external} events, such as the other's
-\textit{utterances} and \textit{primitive actions}, and \textit{internal}
-events, comprising changes in the self's mental states, such as belief formation
-and emotional changes. The theory explains how emotions regulate the underlying
-processes when these events occur. It also elucidates the role of
-\textit{motives} as goal-driven emotion-regulated constructs with which a robot
-can form new intentions to cope with events.
+\subsection{[Title Suppressed For Anonymity] Framework}
+\label{sec:theory}
+This framework is built based on [Title Suppressed For Anonym-ity] Theory which
+deals with the interpretation and prediction of observable behaviors in a dyadic
+collaboration \cite{shayganfar:theory-overview}. The theory focuses on the
+processes regulated by emotional states \cite{shayganfar:goal-management}. The
+observable behaviors represent the outcome of reactive and deliberative
+processes related to the interpretation of the self's relationship to the
+environment. [Title Suppressed For Anonymity] Theory aims to explain both rapid
+emotional reactions to events as well as slower, more deliberative responses.
+The reactive and deliberative processes are triggered by two types of events:
+\textit{external} events, such as the other's \textit{utterances} and
+\textit{primitive actions}, and \textit{internal} events, comprising changes in
+the self's mental states, such as belief formation and emotional changes. The
+theory explains how emotions regulate the underlying processes when these events
+occur. It also elucidates the role of \textit{motives} as goal-driven
+emotion-regulated constructs with which a robot can form new intentions to cope
+with events.
 
-Our focus is on the mechanisms depicted as mental processes in Figure
-\ref{fig:cpm} along with the mental states. Each mechanism includes one or
-more processes in our architecture. For instance, the \textit{Collaboration}
-mechanism includes processes such as \textit{Focus Shifting} and
-\textit{Constraint Management}, while the \textit{Appraisal} mechanism includes
-processes to compute the values for different appraisal variables. The
-\textit{mental states} includes self's (robot's) beliefs, intentions, motives,
-goals and emotion instances as well as the anticipated mental states of the
-other (human). The \textit{Collaboration} mechanism maintains constraints on
-actions, including task states and the ordering of tasks, and provides processes
-to update and monitor the shared plan. The \textit{Appraisal} mechanism is
-responsible for evaluating changes in the self's mental states, the anticipated
-mental states of the other, and the state of the collaboration environment. The
-\textit{Coping} mechanism provides the self with different coping strategies
-associated with changes in the self's mental states with respect to the state
-of the collaboration. The \textit{Motivation} mechanism operates whenever the
-self a) requires a new motive to overcome an internal impasse in an ongoing
-task, or b) wants to provide an external motive to the other when the other
-faces a problem in a task. The \textit{Theory of Mind} mechanism infers a model
-of the other's anticipated mental state. The self progressively updates this
-model during the collaboration.
+The framework includes the mechanisms depicted as mental processes in Figure
+\ref{fig:framework} along with the mental states. The mental
+states shown in Figure \ref{fig:framework} comprise the knowledge base required
+for all the mechanisms in the overall model. These \textit{mental states}
+include self's (robot's) beliefs, intentions, motives, goals and emotion
+instances as well as the anticipated mental states of the other (human). The
+details about all these metal states are beyond the scope of this paper. 
 
-\subsection{Mental States}
-\label{sec:mental-states}
-The mental states shown in Figure \ref{fig:cpm} comprise the knowledge base
-required for all the mechanisms in the overall model. Mental states are
-conscious states of mind providing the content for cognitive processes. These
-mental states possess attributes, each of which provides a unique interpretation
-of the related cognitive entities. The self uses these attributes whenever there
-is an arbitration in the internal cognitive processes.
+Each mechanism includes one or more processes in our architecture. For instance,
+the \textit{Collaboration} mechanism includes processes such as \textit{Focus
+Shifting} and \textit{Constraint Management}, while the \textit{Appraisal}
+mechanism includes processes to compute the values for individual appraisal
+variables \cite{shayganfar:emotional-awareness}
+\cite{shayganfar:appraisal-short}. The \textit{Collaboration} mechanism
+maintains constraints on actions, including task states and the ordering of
+tasks, and provides processes to update and monitor the shared plan. In this
+user-study, the \textit{Collaboration} mechanism uses a hierarchy of goals
+associated with tasks in a the Hierarchical Task Network (HTN) structure
+depicted in Figure \ref{fig:collaboration_structure}. The \textit{Appraisal}
+mechanism is responsible for evaluating changes in the self's mental states, the
+anticipated mental states of the other, and the state of the collaboration
+environment. The \textit{Coping} mechanism provides the self with different
+coping strategies associated with changes in the self's mental states with
+respect to the state of the collaboration. The \textit{Motivation} mechanism
+operates whenever the self a) requires a new motive to overcome an internal
+impasse in an ongoing task, or b) wants to provide an external motive to the
+other (i.e. human) when the other faces a problem in a task. The \textit{Theory
+of Mind} mechanism infers a model of the other's anticipated mental state. The
+self progressively updates this model during the collaboration.
 
-\textit{Motives} are mental constructs which can initiate, direct and maintain
-goal-directed behaviors. They are created by the emotion-regulated Motivation
-mechanism. Motives can cause the formation of a new intention for the robot
-according to: a) its own emotional states, b) its own private goal, c) the
-collaboration (shared) goal, and d) other's anticipated beliefs. Motives possess
-a set of attributes. The Motivation mechanism compares motives based on the
-quality of these attributes and chooses the one which is the most related to the
-current state of the collaboration.
-
-\textit{Intentions} are mental constructs directed at goals and future actions.
-They play an essential role in taking actions according to the collaboration
-plan as well as behavior selection in the Coping mechanism.
-
-\textit{Goals} help the robot to create and update its collaboration plan
-according to the current private and shared goal content and structure. Goals
-direct the formation of intentions to take appropriate corresponding actions
-during collaboration. 
-
-\textit{Emotions} in mental states are emotion instances that are elicited by
-the Appraisal mechanism, e.g., \textit{Joy, Anger, Hope, Worry}. 
-
-\section{Collaboration}
-The Collaboration mechanism constructs a hierarchy of goals associated with
-tasks in a hierarchical task network (see Figure
-\ref{fig:collaboration_structure}), and also maintains the constraints and other
-required details of the collaboration including the inputs and outputs of
-individual tasks, the \textit{preconditions} (specifying whether it is
-appropriate to perform a task), and the \textit{postconditions} (specifying
-whether a just-completed task was successful). Collaboration also monitors the
-focus of attention, which determines the salient objects, properties and
-relations at each point, and shifts the focus of attention during the
-interaction.
-
-\section{Appraisal Processes}
-
-We discuss two appraisal variables in a collaboration context, i.e.,
-\textit{relevance} (since other appraisals are only computed for relevant
-events), and \textit{controllability} (since it is associated with the agent's
-coping ability). There are other appraisal variables introduced in psychological
-\cite{scherer:appraisal-processes} and computational literature
-\cite{gratch:domain-independent}. We have implemented other appraisal variables
-such as \textit{expectedness} \cite{shayganfar:appraisal-short} and
-\textit{desirability} \cite{shayganfar:emotional-awareness} which do not appear
-in this paper due to space limitations. The algorithms in this section use
-mental states of the robot (see Section \ref{sec:mental-states}) which are
-formed based on the collaboration structure.
-
-\subsection{Relevance}
-
-Relevance as an appraisal variable measures the significance of an event for the
-self. An event can be evaluated to be relevant if it has a non-zero utility
-\cite{marsella:ema-process-model}. Relevance is an important appraisal variable
-since the other appraisal variables are meaningful only for relevant events.
-However, the utility of an event during collaboration is influenced by the other
-collaborator's actions and mental states, because there is a commitment between
-collaborators to achieve the shared goal based on the shared plan. Other
-appraisal models only consider the utility of an event based on the self's
-(robot's) goal and plan.
-
-\subsection{Controllability}
-Controllability is the extent to which an event can be influenced; it is
-associated with a robot's ability to cope with an event
-\cite{gratch:domain-independent}. Thus, a robot can determine whether an event's
-outcome can be altered by actions under either of the collaborators' control. In
-other words, controllability is a measure of a robot's ability to maintain or
-change a particular state as a consequence of an event.
-
-Controllability is important for the overall architecture. For instance, the
-robot can choose to ask or negotiate about a collaborative task which is not
-controllable, or form a new motive to establish an alternative goal for the
-current uncontrollable event. In general, other mechanisms in the architecture
-use the controllability output in their decision making processes; meanwhile
-controllability uses information from the collaboration structure, e.g.,
-predecessors of a goal.
-
-An important determinant of one's emotional response is the sense of control
-over occurring events. This sense of subjective control is based on one's
-reasoning about self's power. For instance, the robustness of one's plan for
-executing actions can increase one's sense of power and subsequently the sense
-of control. In the collaboration context, we have translated the sense of control
-into a combination of four different factors including a) \textit{agency} and b)
-\textit{autonomy} of the robot, as well as the ratios of c) \textit{successful
-predecessors}, and d) the \textit{available inputs} of a given goal
-(i.e., $\mathit{g}_{t}$) in the shared plan.
-
-In summary, the output of these two and other appraisal processes such as
-\textit{desirability} \cite{shayganfar:emotional-awareness} and
-\textit{expectedness} \cite{shayganfar:appraisal-short} serves as critical input
-for the other mechanisms and processes (e.g., goal management
-\cite{shayganfar:goal-management}) of the Affective Motivational Collaboration
-Framework, shown in Figure \ref{fig:cpm}. By providing adequate interpretation
-of events in the environment, the appraisal mechanism enables the robot to carry
-out proper collaborative behaviors.
-
-\begin{figure}
+\begin{figure*}[tbh]
   \centering
-  \includegraphics[width=0.48\textwidth]{figure/gameBoard.pdf}
-  \caption{The layout of the available spots for the human and the robot to
-  place their pegs during the collaboration.}
-  \label{fig:game_board}
-\end{figure}
+  \includegraphics[width=1\textwidth]{figure/collaborationStructure.pdf}
+  \caption{{\fontsize{9}{9}\selectfont Collaboration structure used as the
+  task model.}}
+  \vspace*{-5mm}
+  \label{fig:collaboration_structure}
+\end{figure*}
+
+\subsection{Robot Controller}
+The robot controller is comprised of two major components: ROS-bridge and joint
+controller (see Figure \ref{fig:framework}).
+Ros-bridge\footnote{http://wiki.ros.org/rosbridge\_suite} provides an API to ROS
+functionality for non-ROS programs which enables us to send action commands from
+our framework (implemented in JAVA) to the robot's joint controller. The joint
+controller receives action commands and translates them into actual joint and
+actuator commands and sends them to the robot.
 
 \section{Experimental Scenario}
 
@@ -507,17 +422,9 @@ tasks. Failure of any task could create an impasse during the collaboration.
 We conducted our experiment based on a KUKA Youbot (see Figure
 \ref{fig:environment}). The robot was stationary on top of a desk and was able
 to pick up and place avaiable pegs corresponding to the robot's task. The robot
-was operated based on ROS and was receiving commands through the ROS-bridge from
-either our Affective Motivational Collaboration framework or Disco, see Figure
-XYZ.
-
-\begin{figure*}
-  \centering
-  \includegraphics[width=1\textwidth]{figure/collaborationStructure.pdf}
-  \caption{{\fontsize{9}{9}\selectfont Collaboration structure used as the
-  task model.}}
-  \label{fig:collaboration_structure}
-\end{figure*}
+was operated based on Robot Operating System (ROS) and was receiving commands
+through the ROS-bridge from our [Title Suppressed For Anonymity] framework (see
+Figure \ref{fig:framework}).
 
 \subsection{Interaction Paradigms}
 \label{sec-interaction-paradigms}
@@ -551,6 +458,14 @@ turn, the robot waited for the human to do a task, then the wizard let the robot
 know whether the human's goal was achieved or not. Afterwards the robot was
 making a decision about which goal to pursue and was informing human
 accordingly. The same entire procedure was applied to both conditions.
+
+\begin{figure}[tbh]
+  \centering
+  \includegraphics[width=0.48\textwidth]{figure/gameBoard.pdf}
+  \caption{The layout of the available spots for the human and the robot to
+  place their pegs during the collaboration.}
+  \label{fig:game_board}
+\end{figure}
 
 \subsection{Environment and Tasks}
 
@@ -672,6 +587,41 @@ controlled using Disco and in the second trial the robot was controlled using
 AMC framework. The order of these two trials were randomly assigned to each
 participant. In general we used Disco first in 16 experiments, and AMC framework
 first in 17 experiments.
+
+\begin{figure*}[tbh]
+\centering
+\includegraphics[width=0.98\textwidth]{figure/table1-croped.pdf}
+\caption{A sample black and white graphic that has been resized with the
+\texttt{includegraphics} command.}
+\end{figure*}
+
+\begin{figure*}[tbh]
+\centering
+\includegraphics[width=0.9\textwidth]{figure/14Questions.pdf}
+\caption{A sample black and white graphic
+that has been resized with the \texttt{includegraphics} command.}
+\end{figure*}
+
+\begin{figure*}[tbh]
+\centering
+\includegraphics[width=0.98\textwidth]{figure/table2-croped.pdf}
+\caption{A sample black and white graphic that has been resized with the
+\texttt{includegraphics} command.}
+\end{figure*}
+
+\begin{figure*}[tbh]
+\centering
+\includegraphics[width=0.9\textwidth]{figure/AgeComparison1.pdf}
+\caption{A sample black and white graphic
+that has been resized with the \texttt{includegraphics} command.}
+\end{figure*}
+
+\begin{figure*}[tbh]
+\centering
+\includegraphics[width=0.9\textwidth]{figure/AgeComparison2.pdf}
+\caption{A sample black and white graphic
+that has been resized with the \texttt{includegraphics} command.}
+\end{figure*}
 
 \subsection{Evaluation Results}
 

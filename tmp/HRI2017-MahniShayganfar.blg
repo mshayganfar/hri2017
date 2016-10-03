@@ -42,49 +42,49 @@ Warning--empty title in shayganfar:emotional-awareness
 Warning--empty journal in shayganfar:emotional-awareness
 Warning--empty title in shayganfar:theory-overview
 Warning--empty booktitle in shayganfar:theory-overview
-Warning--empty title in shayganfar:appraisal-short
-Warning--empty booktitle in shayganfar:appraisal-short
 Warning--empty title in shayganfar:goal-management
 Warning--empty booktitle in shayganfar:goal-management
-You've used 29 entries,
+Warning--empty title in shayganfar:appraisal-short
+Warning--empty booktitle in shayganfar:appraisal-short
+You've used 28 entries,
             2118 wiz_defined-function locations,
-            653 strings with 8900 characters,
-and the built_in function-call counts, 10155 in all, are:
-= -- 970
-> -- 480
+            649 strings with 8760 characters,
+and the built_in function-call counts, 9873 in all, are:
+= -- 946
+> -- 462
 < -- 7
-+ -- 195
-- -- 158
-* -- 698
-:= -- 1648
-add.period$ -- 88
-call.type$ -- 29
-change.case$ -- 157
++ -- 188
+- -- 152
+* -- 681
+:= -- 1598
+add.period$ -- 85
+call.type$ -- 28
+change.case$ -- 152
 chr.to.int$ -- 0
-cite$ -- 38
-duplicate$ -- 412
-empty$ -- 837
-format.name$ -- 158
-if$ -- 2160
+cite$ -- 37
+duplicate$ -- 400
+empty$ -- 815
+format.name$ -- 152
+if$ -- 2102
 int.to.chr$ -- 0
-int.to.str$ -- 29
-missing$ -- 31
-newline$ -- 143
-num.names$ -- 62
-pop$ -- 212
+int.to.str$ -- 28
+missing$ -- 29
+newline$ -- 138
+num.names$ -- 60
+pop$ -- 202
 preamble$ -- 1
-purify$ -- 135
+purify$ -- 130
 quote$ -- 0
-skip$ -- 278
+skip$ -- 272
 stack$ -- 0
-substring$ -- 580
-swap$ -- 93
+substring$ -- 575
+swap$ -- 92
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 110
+type$ -- 108
 warning$ -- 9
-while$ -- 94
-width$ -- 31
-write$ -- 305
+while$ -- 92
+width$ -- 30
+write$ -- 295
 (There were 17 error messages)
