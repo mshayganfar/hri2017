@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  2 OCT 2016 18:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.8.21)  3 OCT 2016 01:04
 entering extended mode
  restricted \write18 enabled.
  Source specials enabled.
@@ -963,52 +963,71 @@ Package pdftex.def Info: figure/environment.png used on input line 489.
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <9> not available
 (Font)              Font shape `T1/ptm/b/it' tried instead on input line 504.
 
-<figure/table1-croped.pdf, id=73, 678.535pt x 306.14375pt>
-File: figure/table1-croped.pdf Graphic file (type pdf)
+<figure/14Questions.pdf, id=73, 505.69298pt x 216.9551pt>
+File: figure/14Questions.pdf Graphic file (type pdf)
 
-<use figure/table1-croped.pdf>
-Package pdftex.def Info: figure/table1-croped.pdf used on input line 593.
-(pdftex.def)             Requested size: 493.91785pt x 222.84776pt.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 595.
+<use figure/14Questions.pdf>
+Package pdftex.def Info: figure/14Questions.pdf used on input line 594.
+(pdftex.def)             Requested size: 453.59692pt x 194.6056pt.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 596.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <9> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 595.
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 596.
 
-<figure/14Questions.pdf, id=74, 505.69298pt x 216.9551pt>
-File: figure/14Questions.pdf Graphic file (type pdf)
+<figure/table1-croped.pdf, id=74, 678.535pt x 306.14375pt>
+File: figure/table1-croped.pdf Graphic file (type pdf)
 
-<use figure/14Questions.pdf>
-Package pdftex.def Info: figure/14Questions.pdf used on input line 600.
-(pdftex.def)             Requested size: 453.59692pt x 194.6056pt.
+<use figure/table1-croped.pdf>
+Package pdftex.def Info: figure/table1-croped.pdf used on input line 602.
+(pdftex.def)             Requested size: 493.91785pt x 222.84776pt.
 
 <figure/table2-croped.pdf, id=75, 678.535pt x 143.53625pt>
 File: figure/table2-croped.pdf Graphic file (type pdf)
 
 <use figure/table2-croped.pdf>
-Package pdftex.def Info: figure/table2-croped.pdf used on input line 607.
+Package pdftex.def Info: figure/table2-croped.pdf used on input line 610.
 (pdftex.def)             Requested size: 493.91785pt x 104.48271pt.
 
 <figure/AgeComparison1.pdf, id=76, 505.96063pt x 180.70023pt>
 File: figure/AgeComparison1.pdf Graphic file (type pdf)
 
 <use figure/AgeComparison1.pdf>
-Package pdftex.def Info: figure/AgeComparison1.pdf used on input line 614.
+Package pdftex.def Info: figure/AgeComparison1.pdf used on input line 618.
 (pdftex.def)             Requested size: 453.59692pt x 162.00554pt.
 
 <figure/AgeComparison2.pdf, id=77, 505.96063pt x 216.84027pt>
 File: figure/AgeComparison2.pdf Graphic file (type pdf)
 
 <use figure/AgeComparison2.pdf>
-Package pdftex.def Info: figure/AgeComparison2.pdf used on input line 621.
+Package pdftex.def Info: figure/AgeComparison2.pdf used on input line 625.
 (pdftex.def)             Requested size: 453.59692pt x 194.40666pt.
  [4 <./figure/environment.png (PNG copy)>]
-(./HRI2017-MahniShayganfar.bbl
+Overfull \hbox (4.12256pt too wide) in paragraph at lines 681--688
+\T1/ptm/m/n/9 felt more close to the emotion-aware robot than the emotion-ignor
+ant
+ []
+
+
+Underfull \vbox (badness 2409) has occurred while \output is active []
+
+ [5 <./figure/14Questions.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 <./figure/table1-croped.pdf>]
+ [6 <./figure/table1-croped.pdf> <./figure/table2-croped.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figure/table2-croped.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
+>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./figure/AgeComparison1.pdf> <./figure/AgeComparison2.pdf
+
+pdfTeX warning: /usr/bin/pdflatex (file ./figure/AgeComparison2.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+>] (./HRI2017-MahniShayganfar.bbl [8]
 ! Misplaced alignment tab character &.
 l.92 ...ffective collaborative robots for safety &
                                                    crisis management in the
@@ -1022,36 +1041,29 @@ might try typing `S' now just to see what is salvageable.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-) [6 <./figure/14Questions.pdf> <./figure/table2-croped.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figure/table2-croped.pdf): PDF inclus
-ion: multiple pdfs with page group included in a single page
->] [7 <./figure/AgeComparison1.pdf> <./figure/AgeComparison2.pdf
-
-pdfTeX warning: /usr/bin/pdflatex (file ./figure/AgeComparison2.pdf): PDF inclu
-sion: multiple pdfs with page group included in a single page
->] (./HRI2017-MahniShayganfar.aux) ) 
+) [9]
+(./HRI2017-MahniShayganfar.aux) ) 
 Here is how much of TeX's memory you used:
- 19672 strings out of 493304
- 378379 string characters out of 6139871
- 750831 words of memory out of 5000000
- 22668 multiletter control sequences out of 15000+600000
- 60456 words of font info for 75 fonts, out of 8000000 for 9000
+ 19686 strings out of 493304
+ 378609 string characters out of 6139871
+ 751830 words of memory out of 5000000
+ 22681 multiletter control sequences out of 15000+600000
+ 61592 words of font info for 76 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  56i,11n,59p,10450b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dv
-ips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pf
-b></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/font
-s/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/tim
-es/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on HRI2017-MahniShayganfar.pdf (7 pages, 2477445 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips
+/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
+utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on HRI2017-MahniShayganfar.pdf (9 pages, 2490270 bytes).
 PDF statistics:
- 188 PDF objects out of 1000 (max. 8388607)
- 118 compressed objects within 2 object streams
+ 194 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
