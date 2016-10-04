@@ -141,7 +141,7 @@ Mahni Shayganfar \\
        \affaddr{100 Institute Road}\\
        \affaddr{Worcester, MA 01609}\\
        \email{mshayganfar@wpi.edu}
-% 2nd. author
+2nd. author
 \alignauthor
 Charles Rich \\
        \affaddr{Worcester Polytechnic Institute}\\
@@ -156,7 +156,7 @@ Candace L. Sidner\\
        \affaddr{100 Institute Road}\\
        \affaddr{Worcester, MA 01609}\\
        \email{sidner@wpi.edu}
-% 4th. author
+4th. author
 \alignauthor 
 Benjamin L. Hyl\'ak\\
        \affaddr{Worcester Polytechnic Institute}\\
@@ -186,10 +186,10 @@ collaboration. The goal of this user study was twofold: (1) Investigating the
 overall functionality of the mechanisms and the underlying algorithms in our
 architecture, (2) Evaluating human's willingness and assessment of collaboration
 with an emotion-aware and an emotion-ignorant robot. We designed a simple table
-top game to simulate the collaborative environment in which a participant and
-the robot were ``installing'' a solar panel together. The result of our user
-study shows a significant difference between humans' preference of working with
-an emotion-aware robot during collaboration.
+top activity to simulate the collaborative environment in which a participant
+and the robot were ``installing'' a solar panel together. The result of our user
+study shows that humans' significantly prefer working with an emotion-aware
+robot during collaboration.
 \end{abstract}
 
 
@@ -223,10 +223,10 @@ an emotion-aware robot during collaboration.
 </ccs2012>  
 \end{CCSXML}
 
-\ccsdesc[500]{Computer systems organization~Embedded systems}
-\ccsdesc[300]{Computer systems organization~Redundancy}
-\ccsdesc{Computer systems organization~Robotics}
-\ccsdesc[100]{Networks~Network reliability}
+% \ccsdesc[500]{Computer systems organization~Embedded systems}
+% \ccsdesc[300]{Computer systems organization~Redundancy}
+% \ccsdesc{Computer systems organization~Robotics}
+% \ccsdesc[100]{Networks~Network reliability}
 
 
 %
@@ -243,6 +243,7 @@ an emotion-aware robot during collaboration.
 
 \keywords{Human-Robot Collaboration, Affect-Driven Processes, Emotion-Awareness}
 
+\vspace*{-3mm}
 \section{Introduction}
 The idea of robots or other intelligent agents living in a human environment has
 been a persistent dream from science fiction books to artificial intelligence
@@ -257,9 +258,9 @@ We believe that collaborative robots need to take into account humans' internal
 states while making decisions during collaboration. Humans express emotions to
 reveal their internal states in social contexts including collaboration
 \cite{breazeal:sociable-interactive-robots}. Due to the existence of such
-expressions robot's emotional-awareness can improve the quality of collaboration
+expressions robots' emotional-awareness can improve the quality of collaboration
 in terms of humans' perception of performance and preferences. Hence,
-collaborative robots require to include affect-driven mechanisms in their
+collaborative robots need to include affect-driven mechanisms in their
 decision making processes to be able to interpret and generate appropriate
 responses and behaviors. Our aim in this work was to study the importance of
 emotional awareness and the underlying affect-driven processes in human-robot
@@ -270,10 +271,10 @@ with an emotion-aware and an emotion-ignorant robot.
 This work is implemented as part of a larger effort to assess affect-driven
 collaborative robots which are capable of generating and recognizing emotions in
 order to be better collaborators. This work is based on the development of
-\textit{Affective Motivational Collaboration Theory} which is built on the
-foundations of the \textit{SharedPlans} theory of collaboration
-\cite{grosz:plans-discourse} and the \textit{cognitive appraisal} theory of
-emotions \cite{gratch:domain-independent}.
+[Title Suppressed For Anonymity] Theory which is built on the foundations of
+the \textit{SharedPlans} theory of collaboration \cite{grosz:plans-discourse}
+and the \textit{cognitive appraisal} theory of emotions
+\cite{gratch:domain-independent}.
 
 \section{Related Work}
 
@@ -281,9 +282,9 @@ There are many research areas, including robotics and autonomo-us agents, that
 employ the structure and/or functions of emotions in their work with a variety
 of motivations behind modeling emotions
 \cite{wehrle:motivations-modeling-emotion}. In
-\cite{breazeal:sociable-interactive-robots} authros surveyed some of the
+\cite{breazeal:sociable-interactive-robots} authors surveyed some of the
 principle research in social robotics and its applications in Human-Robot
-Interaciton. We can see the application of emotion theories in designing robots
+Interaction. We can see the application of emotion theories in designing robots
 capable of learning from humans \cite{breazeal:expressive-behavior}, robots
 capable of expressing emotions \cite{cameron:expression-hri}
 \cite{shayganfar:methodology} and social behaviors
@@ -299,42 +300,43 @@ a mechanism to adapt the robot's behaviors during the interaction
   \caption{{\fontsize{9}{9}\selectfont Computational framework based on
   [title suppressed for anonymity] theory (arrows indicate primary influences
   between mechanisms and data flow).}}
-  \vspace*{-5mm}
   \label{fig:framework}
+  \vspace*{-5mm}
 \end{figure*}
 
 Many of the computational models of emotions and their applications are derived
-from appraisal theories of emotion making appraisal as the central process in
+from appraisal theories of emotion making appraisal the central process in
 their architectures \cite{adam:bdi-emotional-companion}
 \cite{marinier:behavior-emotion} \cite{marsella:ema-process-model}
 \cite{si:modeling-appraisal-tom-journal}. Appraisal is usually modeled as the
-cause of emotion being derived via simple rules on a set of appraisal variables.
-In robotics, appraisal theory has been used to establish and maintain a better
-interaction between a robot and a human \cite{castro:autonomous-robot-fear}
-\cite{kim:model-hri-appraisal} \cite{pontier:women-robot-men}
-\cite{vogiatzis:robot-museum}. There are other models of emotions that have been
-also used in robotics and human-robot interaction \cite{klug:emotion-based-hri}
-\cite{lim:mei-motherese-ei} \cite{zhang:service-robot-dimensional}.
+cause of emotion, being derived via simple rules on a set of appraisal
+variables. In robotics, appraisal theory has been used to establish and maintain
+a better interaction between a robot and a human
+\cite{castro:autonomous-robot-fear} \cite{kim:model-hri-appraisal}
+\cite{pontier:women-robot-men} \cite{vogiatzis:robot-museum}. There are other
+models of emotions that have also been used in robotics and human-robot
+interaction \cite{klug:emotion-based-hri} \cite{lim:mei-motherese-ei}
+\cite{zhang:service-robot-dimensional}.
 
-There are also other examples that researchers focus on the applications of
+There are also other examples in which researchers focus on the applications of
 emotions in human-robot collaboration. For instance, in
-\cite{guha:emotion-feedback} researchers use robot's emotional expression as a
-feedback to the human to improve the quality of collaboraiton. In
-\cite{looije:affective-collaboration-safety} authors introduce some theoretical
-concepts that affective collaborative robots can enhance joint human-robot
-performance by adapting the robot's role and interaction to the human's
-affective state. This work does not provide any details of implementation and
-how these theoretical concepts can lead to a better human-robot collaboration.
-However, little effort has been put on development of functions of emotions and
-their applications in decision making and emotional-awareness processes of
-collaborative robots.
+\cite{guha:emotion-feedback} researchers use a robot's emotional expression as a
+feedback to the human to improve the quality of collaboration. In
+\cite{looije:affective-collaboration-safety} the authors introduce some
+theoretical concepts including that affective collaborative robots can enhance
+joint human-robot performance by adapting the robot's role and interaction to
+the human's affective state. This work does not provide any details of
+implementation or how these theoretical concepts can lead to a better
+human-robot collaboration. Little effort has been put on development of
+functions of emotions and their applications in decision making and
+emotional-awareness processes of collaborative robots.
 
 \section{Implementation}
 The implementation of this user-study included two separated parts. The first
 part incorporated the [Title Suppressed For Anony-mity] Framework consisting of
 all Mental Processes (see left-side of Figure \ref{fig:framework}) briefly
 described in Section \ref{sec:theory}. The second part was implemented to
-recieve action commands from the framework and forwarding them to the robot to
+receive action commands from the framework and forward them to the robot to
 control joints and actuators (see right-side of Figure \ref{fig:framework}).
 
 \subsection{[Title Suppressed For Anonymity] Framework}
@@ -359,10 +361,10 @@ with events.
 The framework includes the mechanisms depicted as mental processes in Figure
 \ref{fig:framework} along with the mental states. The mental
 states shown in Figure \ref{fig:framework} comprise the knowledge base required
-for all the mechanisms in the overall model. These \textit{mental states}
+for all of the mechanisms in the overall model. These \textit{mental states}
 include self's (robot's) beliefs, intentions, motives, goals and emotion
 instances as well as the anticipated mental states of the other (human). The
-details about all these metal states are beyond the scope of this paper. 
+details about these mental states are beyond the scope of this paper. 
 
 Each mechanism includes one or more processes in our architecture. For instance,
 the \textit{Collaboration} mechanism includes processes such as \textit{Focus
@@ -373,7 +375,7 @@ variables \cite{shayganfar:emotional-awareness}
 maintains constraints on actions, including task states and the ordering of
 tasks, and provides processes to update and monitor the shared plan. In this
 user-study, the \textit{Collaboration} mechanism uses a hierarchy of goals
-associated with tasks in a the Hierarchical Task Network (HTN) structure
+associated with tasks in a Hierarchical Task Network (HTN) structure
 depicted in Figure \ref{fig:collaboration_structure}. The \textit{Appraisal}
 mechanism is responsible for evaluating changes in the self's mental states, the
 anticipated mental states of the other, and the state of the collaboration
@@ -388,17 +390,17 @@ self progressively updates this model during the collaboration.
 
 \begin{figure*}[tbh]
   \centering
-  \includegraphics[width=1\textwidth]{figure/collaborationStructure.pdf}
+  \includegraphics[width=0.95\textwidth]{figure/collaborationStructure.pdf}
   \caption{{\fontsize{9}{9}\selectfont Collaboration structure used as the
   task model.}}
-  \vspace*{-5mm}
   \label{fig:collaboration_structure}
+  \vspace*{-5mm}
 \end{figure*}
 
 \subsection{Robot Controller}
-The robot controller is comprised of two major components: ROS-bridge and joint
-controller (see Figure \ref{fig:framework}).
-Ros-bridge\footnote{http://wiki.ros.org/rosbridge\_suite} provides an API to ROS
+The robot controller is comprised of two major components: 1) ROS-bridge and 2)
+joint controller (see Figure \ref{fig:framework}).
+ROS-bridge\footnote{http://wiki.ros.org/rosbridge\_suite} provides an API to ROS
 functionality for non-ROS programs which enables us to send action commands from
 our framework (implemented in JAVA) to the robot's joint controller. The joint
 controller receives action commands and translates them into actual joint and
@@ -407,57 +409,16 @@ actuator commands and sends them to the robot.
 \section{Experimental Scenario}
 
 Our scenario was based on a table top turn-taking game that we designed to
-simulate installing a solar panel. Participants had to collaborate one-on-one
-with our robot to complete all the given tasks required to install the solar
-panel. All the tasks were simple picking up and placing collaborators' available
-pegs on predefined spots on the board (see Figure \ref{fig:game_board}). Each
-pick-and-place was associated with the robot's or the participant's task. The
-robot and the participants had their own unique primitive tasks that they had to
-accomplish in their own turn. The final goal of installing a solar panel
-required the robot and the participants to accomplish their own individual
-tasks. Failure of any task could create an impasse during the collaboration.
-
-\subsection{The Robot}
-
-We conducted our experiment based on a KUKA Youbot (see Figure
-\ref{fig:environment}). The robot was stationary on top of a desk and was able
-to pick up and place avaiable pegs corresponding to the robot's task. The robot
-was operated based on Robot Operating System (ROS) and was receiving commands
-through the ROS-bridge from our [Title Suppressed For Anonymity] framework (see
-Figure \ref{fig:framework}).
-
-\subsection{Interaction Paradigms}
-\label{sec-interaction-paradigms}
-The robot interacted via a) speech, b) the corresponding utterance on the
-screen, c) negative, positive and neutral expression of emotion through an
-emoticon on the screen. The robot used neutral expression in case of the
-emotion-ignorance. The interaction was controlled autonomously by the AMC
-framework in case of the emotion-awareness, and Disco in case of the
-emotion-ignorance (see Section XYZ). The reasoning about which task should be
-done and controlling the robot was entirely autonomous. Only the perception of
-the task failure or achievement by the robot or by the participant was done by a
-wizard monitoring the collabortion outside of the test area. The interaction was
-structured based on the exact same goals in an HTN for both conditions. The
-robot was using the same utterances in both conditions. In emotion-aware
-condition only if the participant was expressing a negative emotion in case of a
-failure the robot was using a different utterance in compare to the
-participant's positive or neutral expression of emotion; i.e., the robot's
-utterances were identical in emotion-aware and emotion-ignorance cases if in the
-latter the participant reported (expressed) a positive or a neutral emotion. At
-the beginning of each collaboration the robot asked each participant to achieve
-the overall shared goal, i.e., ``installing the solar panel''. Then, before
-achieving a new goal, the robot informed the participant about the higher level
-nonprimitive goal of which the primitives were going to be achieved. The same
-procedure was used by the robot if there was a decision for switching to another
-nonprimitive due to the failure of the task achieving the current goal. For
-example, \ldots (see Figure \ref{fig:collaboration_structure}). After achieving
-a new primitive goal, the robot either informed the human keeping the ground for
-the next goal to achieve, or informed and passed the ground to the human to
-execute the next task with repoect to the human's goal. In case of the human's
-turn, the robot waited for the human to do a task, then the wizard let the robot
-know whether the human's goal was achieved or not. Afterwards the robot was
-making a decision about which goal to pursue and was informing human
-accordingly. The same entire procedure was applied to both conditions.
+simulate the installation of a solar panel. Participants had to collaborate
+one-on-one with our robot to complete all the given tasks required to install
+the solar panel. All the tasks consisted of picking up and placing
+collaborators' available pegs on predefined spots on the board (see Figure
+\ref{fig:game_board}). Each pick-and-place was associated with the robot's or
+the participant's task. The robot and the participants had their own unique
+primitive tasks that they had to accomplish in their own turn. The final goal of
+installing a solar panel required the robot and the participants to accomplish
+their own individual tasks. Failure of any task could create an impasse during
+the collaboration.
 
 \begin{figure}[tbh]
   \centering
@@ -465,11 +426,81 @@ accordingly. The same entire procedure was applied to both conditions.
   \caption{The layout of the available spots for the human and the robot to
   place their pegs during the collaboration.}
   \label{fig:game_board}
+  \vspace*{-3mm}
 \end{figure}
+
+\subsection{The Robot}
+
+We conducted our experiment based on a KUKA Youbot (see Figure
+\ref{fig:environment}). The robot was stationary on top of a desk and was able
+to pick up and place avaiable pegs corresponding to the robot's task. The robot
+was operated based on Robot Operating System (ROS -- indigo) and was receiving
+commands through the ROS-bridge from our [Title Suppressed For Anonymity]
+framework (see Figure \ref{fig:framework}). We used a touch-screen monitor (see
+Figure \ref{fig:environment}) to a) express robot's positive, negative or
+neutral emotion through an emoticon, b) display robot's utterances, c)
+control turn-taking process of the collaboration. and d) let the participants
+express (report) their positive, negative or neutral emotion for each turn. The
+robot used MaryTTS an open-source, multilingual Text-to-Speech Synthesis
+platform to provide corresponding speech for its utterances in English.
+
+\vspace*{-2mm}
+\subsection{Interaction Paradigms}
+\label{sec-interaction-paradigms}
+At the beginning of each collaboration the robot asked each participant to
+achieve the overall shared goal, i.e., ``installing the solar panel''. Then,
+before working towards a new goal, the robot informed the participant about the
+higher level nonprimitive goal (e.g. Prepare Panel -- see Figure
+\ref{fig:taskModel}) of which the primitives were going to be working towards.
+The same procedure was used by the robot if there was a decision to switch to
+another nonprimitive due to the failure of a task in achieving the current goal.
+After achieving a new primitive goal, the robot either informed the human that
+it would pursue the next goal, or it informed and passed the turn to the human
+to execute the next task with respect to the human's goal. In case of the
+human's turn, the robot waited for the human to do a task, then the wizard let
+the robot know whether the human's goal was achieved or not. Afterwards the
+robot made a decision about which goal to pursue and informed the human
+accordingly. The same procedure was applied to both conditions.
+
+The robot interacted via a) speech, b) the corresponding utterance on the
+screen, c) negative, positive and neutral expression of emotion through an
+emoticon on the screen. There were two conditions of the robot: 1)
+emotion-aware and 2) emotion ignorant. The robot used neutral expression in the
+case of emotion-ignorance. The interaction was controlled autonomously by the
+framework we discussed in Section \ref{sec:theory} in both the emotion-ignorant
+and the emotion-aware cases. The reasoning about which task should be done and
+controlling the robot was entirely autonomous. Only the perception of the task
+failure or achievement by the robot or by the participant was done by a wizard
+monitoring the collaboration outside of the test area. The interaction was
+structured based on the exact same goals in an HTN for both conditions. The
+robot was using the same utterances in both conditions. In the emotion-aware
+condition the robot used a different behavior in comparison with the
+emotion-ignorant condition only if the participant was expressing a negative
+emotion in case of a failure; i.e., the robot's utterances were identical in
+emotion-aware and emotion-ignorant cases if in the latter the participant
+reported (expressed) a positive or a neutral emotion.
+
+Three different behaviors could be generated only in the emotion-aware
+condition. These three behaviors were 1) mitigating the human's negative emotion
+and postponing its own task to help the human, 2) goal-management to switch to
+another goal which has lower cost with respect to the human's negative emotion,
+and 3) task delegation to the human to overcome the impasse. In each run, the
+human had two pre-coordinated task failures, and the robot had one. If the human
+expressed negative emotion after the first human task-failure, the robot
+responded by mitigating the human's negative emotion by saying  ``It was not
+your fault. I can help you with this task" and helping the human by providing a
+peg to fulfill the human's task. If the human expressed negative emotion after
+the second human task-failure, the robot informed the human that they could
+proceed with another task to save time while simultaneously requesting a new peg
+(i.e. help) from the supervisor. If the human expressed negative emotion as a
+result of the robot's task failure, the robot requested help from the human (who
+had the correct peg). In the event that the human expressed positive or neutral
+emotion during these three failures, the robot behaved identically in the
+emotion-ignorant and the emotion-aware cases, by asking the supervisor for help. 
 
 \subsection{Environment and Tasks}
 
-The environment was set up in Human-Robot Interaction lab. and included the
+The environment was set up in the Human-Robot Interaction lab. and included the
 robot, the collaboration board on top of a desk, and the participant standing in
 front of the robot on the other side of the board (see Figure
 \ref{fig:environment}). One of the experimenters monitored the interactions
@@ -478,21 +509,15 @@ only the required perception, i.e., decision on success or failure of the tasks
 for the robot, through the entire time of the collaboration (see Section
 \ref{sec-interaction-paradigms}).
 
-The tasks were defined based on the HTN structure shown in Figure XYZ and were
-executed in a turn-taking fashion by either of the collaborators. For each task
-either the robot or the participant was responsible to pick up one of the
-corresponding pegs from their own inventory and place it on the right spot which
-was colored and tagged same as the associated peg.
-
-\begin{figure}
-  \centering
-  \includegraphics[width=0.45\textwidth]{figure/environment.png}
-  \caption{{\fontsize{9}{9}\selectfont Experimental setup.}}
-  \label{fig:environment}
-\end{figure}
+The tasks were defined based on the HTN structure shown in Figure
+\ref{fig:taskModel} and were executed in a turn-taking fashion by either of the
+collaborators. For each task either the robot or the participant was responsible
+to pick up one of the corresponding pegs from their own inventory and place it
+on the right spot which was colored and tagged same as the associated peg. Some
+pegs and corresponding spots on the board had hidden magnets which prevented the
+pegs from standing upright. Any peg that fell over was considered a failed task. 
 
 \section{Evaluation}
-
 \subsection{Hypothesis}
 
 The non/social functions of emotions impact a collaboration process. Human
@@ -501,32 +526,37 @@ by these functions of emotions depending on the context. We developed seven
 hypotheses on positive influence of emotion-awareness and usefulness of emotion
 function during collaboration:
 
-\textit{\textbf{Hypothesis 1.}} Subjects will prefer to collaborate with the
-robot which is controlled by Affective Motivational Collaboration framework more
-than the robot which is controlled by Disco.
+\textit{\textbf{Hypothesis 1.}} Subjects will feel closer (likability) to the
+emotion-aware robot rather than the emotion-ignorant robot.
 
-\textit{\textbf{Hypothesis 2.}} Subjects will find a mutual understanding in the
-collaboration with the robot which is controlled by the AMC framework more than
-the robot controlled by Disco.
+\textit{\textbf{Hypothesis 2.}} Subjects will find the emotion-aware robot to be
+more trustworthy than the emotion-ignorant robot.
 
-\textit{\textbf{Hypothesis 3.}} Subjects will find working with the robot which
-is controlled by AMC framework less confusing than the robot controlled by
-Disco.
+\textit{\textbf{Hypothesis 3.}} Subjects will find the emotion-aware robot to
+have better performance in collaboration than the emotion-ignorant robot.
 
-\textit{\textbf{Hypothesis 4.}} Subjects will find the robot which is controlled
-by AMC framework understanding their goals more than the robot controlled by
-Disco.
+\textit{\textbf{Hypothesis 4.}} Subjects will find the emotion-aware robot to be
+more understanding of their feelings than the emotion-ignorant robot.
 
-\textit{\textbf{Hypothesis 5.}} Subjects will find the robot which is controlled
-by AMC framework understanding their feelings more than the robot controlled by
-Disco.
+\textit{\textbf{Hypothesis 5.}} Subjects will find the emotion-aware robot to be
+more understanding of their goals than the emotion-ignorant robot.
 
-\textit{\textbf{Hypothesis 6.}} Subjects will find the robot which is controlled
-by AMC framework more helpful in compare to the robot controlled by Disco.
+\textit{\textbf{Hypothesis 6.}} Subjects will feel more satisfied about the
+collaboration when working with the emotion-aware robot rather than
+emotion-ignorant robot.
 
-\textit{\textbf{Hypothesis 7.}} Subjects will find the robot which is controlled
-by AMC framework more trustworthy than the robot controlled by Disco.
+\textit{\textbf{Hypothesis 7.}} Subjects will perceive higher level of mutual
+satisfaction with emotion-aware robot than emotion-ignorant robot.
 
+\begin{figure}
+  \centering
+  \includegraphics[width=0.45\textwidth]{figure/environment.png}
+  \caption{{\fontsize{9}{9}\selectfont Experimental setup.}}
+  \label{fig:environment}
+  \vspace*{-5mm}
+\end{figure}
+
+\vspace*{3mm}
 \subsection{Procedure}
 \label{sec:procedure}
 Participants were first given a brief description of the purpose of the
@@ -535,10 +565,10 @@ consent form. Participants were then provided with a written instruction of
 their task and the rules for collaborating with the robot. Then, one of the
 experimenters lead them into the experiment room and asked the participants
 to asked to answer pre-experiment questionnaires. Afterwards, the experimenter
-went through all the important details of the instructions with the participants
-standing in front of the collabortion board and the robot. The experimenter
+went through all the details of the instructions with the participants
+standing in front of the collaboration board and the robot. The experimenter
 confirmed participants' correct understanding of the tasks and informed them
-with type of task failures that might occur during the collaboration.
+of types of task failures that might occur during the collaboration.
 Participants were told that researchers were developing a collaborative robot
 and would like their help in evaluating their design. Participants were provided
 with identical instructions and randomly assigned to the conditions in the
@@ -551,28 +581,23 @@ questionnaire, participants were told that they were going to collaborate with
 the robot one more time and the robot might not necessarily have the same
 collaborative behavior. After completing the second round of collaboration,
 participants were asked to answer the second post-experiment questionnaire which
-included the same questions as the first post-experiment questionnaire. After
-all, participants were asked to answer an open-ended questionnaire which
+consisted of the same questions as the first post-experiment questionnaire.
+After all, participants were asked to answer an open-ended questionnaire which
 measured their perception of difference between two runs, their preference of
-collaborative robot between two runs, and thier reasons of preference.
+collaborative robot between two runs, and their reasons of preference.
 
 \subsection{Measurements}
-
-In our study two basic conditions of the robot were tested: a) controlling the
-robot using Disco, b) controlling the robot using AMC framework. The
-collaborative results were measured using objective and subjective measurements.
-
-\textit{\textbf{Objective -- }} We measured participants' recall of the
-collaborative behaviors presented by the robot using an open-ended
-post-experiment questionnaire. We also specifically asked the participants what
-behavior of the robot did they like during their collaboration.
-
-\textit{\textbf{Subjective -- }} We evaluated participants' levels of
-satisfaction, trust, confusion, goal achievement, as well as mutual
-understanding of goals, mutual understanding of feelings, mutual agreement, and
-also participants' beliefs about the efficiency of collaboration and their
-feeling of robot's collaborative behaviors. Seven-point Likert scales were used
-in all questionnaire items.
+\label{sec:Measurements}
+In our study two basic conditions of the robot were tested: a) the
+emotion-ignorant condition, b) the emotion-aware condition. We measured
+participants' recall of the collaborative behaviors presented by the robot using
+an open-ended post-experiment questionnaire. We also specifically asked the
+participants what behavior of the robot they liked during their collaboration.
+We also evaluated participants' levels of satisfaction, trust, confusion, goal
+achievement, mutual understanding of goals, mutual understanding of feelings,
+mutual agreement, and also participants' beliefs about the efficiency of
+collaboration and their feeling of robot's collaborative behaviors. Seven-point
+Likert scales were used in these questionnaire items.
 
 \subsection{Participants}
 \label{sec:Participants}
@@ -582,75 +607,61 @@ staffs as well as other civilians recruited from outside of the campus. The ages
 of the participants varied between 19 and 74 with an average of 34.2 years
 before our screening of 4 subjects based on our sanity check questions. After
 this screening the ages of the participants varied between 19 and 54 with an
-average of 30.8 years old. Of all the 33 participants, 21 were female and 12
+average of 30.8 years old. Of the 33 participants, 21 were female and 12
 were male. Each participant participated in 2 trials. In one trial the robot was
-controlled using Disco and in the second trial the robot was controlled using
-AMC framework. The order of these two trials were randomly assigned to each
-participant. In general we used Disco first in 16 experiments, and AMC framework
-first in 17 experiments.
+aware of human's emotion and in the second trial the robot was ignoring human's
+emotion. The order of these two trials were randomly assigned to each
+participant. In general we used emotion-ignorant robot first in 16 experiments,
+and emotion-aware robot first in 17 experiments.
 
 \begin{figure*}[tbh]
 \centering
 \includegraphics[width=0.9\textwidth]{figure/14Questions.pdf}
-\caption{A sample black and white graphic
-that has been resized with the \texttt{includegraphics} command.}
+\caption{Results of the Likert scale surveys for 14 selected questions. The
+p-value for the difference between the means for each question is <0.001,
+except for Q11, which is 0.008.}
 \label{fig:14Questions}
+\vspace*{-5mm}
 \end{figure*}
 
 \begin{figure*}[tbh]
 \centering
 \includegraphics[width=0.98\textwidth]{figure/table1-croped.pdf}
-\caption{A sample black and white graphic that has been resized with the
-\texttt{includegraphics} command.}
+\caption{The 14 Likert scale questions presented in this paper, organized
+according to their groups.}
 \label{fig:14Questions-Table}
 \end{figure*}
 
 \begin{figure*}[tbh]
 \centering
 \includegraphics[width=0.98\textwidth]{figure/table2-croped.pdf}
-\caption{A sample black and white graphic that has been resized with the
-\texttt{includegraphics} command.}
+\caption{Open-ended questionnaire questions and results.}
 \label{fig:Open-Ended-Table}
+\label{fig:14Questions}
+\vspace*{-5mm}
 \end{figure*}
 
 \begin{figure*}[tbh]
 \centering
 \includegraphics[width=0.9\textwidth]{figure/AgeComparison1.pdf}
-\caption{A sample black and white graphic
-that has been resized with the \texttt{includegraphics} command.}
+\caption{Impact of age on results of Likert scale Questions 1-7}
 \end{figure*}
 
 \begin{figure*}[tbh]
 \centering
 \includegraphics[width=0.9\textwidth]{figure/AgeComparison2.pdf}
-\caption{A sample black and white graphic
-that has been resized with the \texttt{includegraphics} command.}
+\caption{Impact of age on results of Likert scale Questions 8-14}
 \end{figure*}
 
+\vspace*{-3mm}
 \section{Results}
 
-% \textit{\textbf{Subjective -- }} In our first hypothesis we predicted that the
-% participants would prefer to collaborate with the robot controlled by AMC
-% framework than the robot controlled by Disco. This prediction was supported by
-% our analysis. There was a significant difference across two conditions in
-% participants' preferrance to collaborate with the robot. In general ??? out of
-% 33 participants preferred to collaborate with the robot controlled by AMC
-% framework; ??? out of 33 participants found at least one behvaior generated by
-% AMC framework useful for more complex tasks; ??? out of 33 participants found
-% the robot controlled by AMC framework being able to exhibit behaviors that can
-% prevent human errors; ??? out of 33 participants believe the robot controlled by
-% AMC framework can exhibit behaviors that could improve efficiency of
-% collaboration; and, ??? out of 33 participants mentioned at least one of the
-% collaborative behaviors of the robot controlled by AMC framework as an
-% interesting behavior during collaboration.
-% 
-% \textit{\textbf{Objective -- }} 
-
-As discussed in Section \ref{sec:procedure}, results of the user study were
+As discussed in Section \ref{sec:Measurements}, results of the user study were
 gathered through a 31-question Likert-scale survey that was given to each participant
 after each run with the robot, and through a 5-question open-ended summary
 questionnaire at the end of the experiment.
-\subsection{Results from the 7-Point Likert Scale Survey}
+
+\subsection{7-Point Likert Scale Survey Results}
 As mentioned previously, the 7-point Likert scale survey was administered at
 the end of the emotion-ignorant run and at the end of the emotion-aware run for
 each participant. The 31 questions are generally categorized to evaluate the
@@ -658,24 +669,26 @@ humans' perceptions of the following seven categories, with 3-6 questions per
 group: (1) the likability of the robot (2) the level of trust the human feels
 in the robot (3) the human's perception of the robot's performance (4) the
 human's perception of the robot's understanding of human's emotions (5) the
-human's perception of the robot's understanding of human and collaboration
+human's perception of the robot's understanding of human's and collaboration's
 goals and objectives (6) the human's feeling about the collaboration and (7)
 the human's perception of the human's and robot's mutual satisfaction with each
 other as collaborative partners. Of the 31 questions, 2 were chosen from each
-group, for a total of 14 questions, for presentation in this paper due to space
-constraints; the questions are provided in Figure \ref{fig:14Questions-Table}.
-These questions are chosen as representative of the group of questions, and
-their results do not necessarily represent the highest levels of statistical
+group, for a total of 14 questions, for presentation in this paper. The
+remaining questions were omitted due to space constraints. The questions
+presented are provided in Figure \ref{fig:14Questions-Table}. These questions
+are chosen as representative of their respective groups of questions, and their
+results do not necessarily represent the highest levels of statistical
 significance.
 
 The results were analyzed using a two-tailed paired t-test to analyze the
 difference of means between the emotion ignorant and the emotion-aware
 condition. Refer to Figure \ref{fig:14Questions} for the results. As mentioned
-in Section \ref{sec:procedure}, participants were randomly assigned to complete
+in Section \ref{sec:Participants}, participants were randomly assigned to complete
 either the emotion-ignorant or the emotion-aware run first; analysis of the
-results revealed no statistically significant difference or discernible pattern
+results revealed no statistically significant difference or consistent pattern
 based on which run the participant completed first.
 
+\vspace*{-3mm}
 \subsubsection{Likability of the Robot}
 \label{sec:Likability}
 Questions 1 and 2 addressed the likability of the robot. As shown in Figure
@@ -686,6 +699,7 @@ than the emotion-ignorant robot by about 2.1 points, on the 7-point scale. This
 supports Hypothesis 1, which stated that humans would prefer to work with the
 emotion-aware robot over the emotion-ignorant robot.
 
+\vspace*{-2mm}
 \subsubsection{Human Trust in the Robot}
 \label{sec:Trust}
 Questions 3 and 4 were designed to measure the degree of trust that the human
@@ -696,26 +710,27 @@ performance. In fact, in Question 4, participants rated their trust in the
 emotion-aware robot to perform appropriately during collaboration an average of
 5.9 on a 7-point Likert scale, where 7.0 would indicate maximum trust; this
 indicates that the participants felt that the emotion-aware robot's
-collaborative performance was acceptable and reliable. This result supports
-Hypothesis 2, that posits that human participants would find the emotion-aware
-robot to be more trustworthy than the emotion-ignorant robot.
+collaborative performance was acceptable. This result supports Hypothesis 2,
+that posits that human participants would find the emotion-aware robot to be
+more trustworthy than the emotion-ignorant robot.
 
+\vspace*{-2mm}
 \subsubsection{Perception of the Robot's Performance} 
 \label{sec:Performance}
-Question 5 measures the participant's perception of repetitiveness in the robot
-during the collaboration. In both conditions, participants rated the robot as
-moderately repetitive, with the emotion-ignorant robot's average response being
-about 1.1 points higher (Question 5 is reverse-scored) than the emotion-aware.
+Question 5 (which is reverse-scored) measures the participant's perception of
+repetitiveness in the robot during the collaboration. In both conditions,
+participants rated the robot as moderately repetitive, with the emotion-ignorant
+robot's average response being about 1.1 points higher than the emotion-aware.
 This result correlates with several of the open-ended responses which described
-the emotion-aware robot's behaviors as “cute” and “interesting”, refer to
+the emotion-aware robot's behaviors as ``cute'' and ``interesting'', refer to
 Section \ref{sec:Open-Ended}. The participants also felt that the emotion-aware
 robot's decisions during collaboration improved their own performance, with an
 average rating of 5.4, while the emotion-ignorant robot only received an average
 rating of 3.3, indicating that participants felt it was not able to interact in
 such a way as to increase the human's performance; refer to results from
 Question 6. These results support Hypothesis 3, which posited that humans will
-perceive the emotion-aware robot as being more capable than the
-emotion-ignorant robot.
+perceive the emotion-aware robot as being more capable than the emotion-ignorant
+robot.
 
 \subsubsection{Robot's Understanding of Human Emotions} 
 \label{sec:Emotions}
@@ -751,12 +766,12 @@ collaboration. It is worth noting that the participants scored Question 11 for
 the emotion-ignorant case at 5.3 points, leading to a 0.8-point difference
 between the two conditions; this is the smallest gap that occurs between the
 results for any question, and indicates that the participants felt that the
-goals still mutually agreed-upon in the emotion-ignorant case. However, the
-general satisfaction with the outcome of the collaboration was significantly
-less in the case of the emotion-ignorant robot, at 4.8 points. These results
-support Hypothesis 6 that humans will feel greater a greater sense of mutual
-collaboration and understanding about the collaboration with the emotion-aware
-robot.
+goals were still partially mutually agreed-upon in the emotion-ignorant case.
+However, the general satisfaction with the outcome of the collaboration was
+significantly less in the case of the emotion-ignorant robot, at 4.8 points.
+These results support Hypothesis 6 that humans will feel greater a greater sense
+of mutual collaboration and understanding about the collaboration with the
+emotion-aware robot.
 
 \subsubsection{Human Perception of Mutual Satisfaction with Collaborative
 Partner}
@@ -798,7 +813,7 @@ handling the social complexities that occur in collaboration, as shown in
 responses such as ``The robot explained motives...which is important to keep a
 team communicating and on the same pace.'' Also, ``When we failed he initially
 switched to a new task and then came back to the originally failed task. It kept
-me form getting irritated and negative.'' Finally, ``The more complex, the more
+me from getting irritated and negative.'' Finally, ``The more complex, the more
 necessary it is to understand how humans think and operate...an empathetic robot
 can adapt, encourage and help.'' It is worth noting that one respondent
 preferred the emotion-ignorant case, saying ``In a more complex task it might be
@@ -810,17 +825,18 @@ The only question that did not provide statistically significant support in
 favor of the emotion-aware robot related to which case the robot exhibited
 behavior that could prevent human error. About 40\% of respondents thought that
 the emotion-ignorant robot was more likely to prevent human error; however, all
-but one of these cited calling the supervisor as the main methodology of
-preventing human error, in spite of the fact that the instructions indicated
-that the robot's need to call the supervisor counted against the collaboration.
-Of the 60\% who thought that the emotion-aware robot was better at preventing
-human error, most cited the robot's ability to console the human as the main
-behavior that could prevent human error. Respondents indicated that this enabled
-them to move on and feel better about the collaboration, as with this response:
-``The robot switched to a different task and we came back to an error later.
-This allowed my mind to move away from being frustrated. I was able to complete
-a different task which felt like a win - then come back and finish the error.
-Making my mind move away from frustration could definitely prevent more errors.''
+but one of these cited calling the supervisor as the main method of preventing
+human error, in spite of the fact that the instructions indicated that the
+robot's need to call the supervisor counted against the collaboration. Of the
+60\% who thought that the emotion-aware robot was better at preventing human
+error, most cited the robot's ability to console the human as the main behavior
+that could prevent human error. Respondents indicated that this enabled them to
+move on and feel better about the collaboration, as with this response: ``The
+robot switched to a different task and we came back to an error later. This
+allowed my mind to move away from being frustrated. I was able to complete a
+different task which felt like a win - then come back and finish the error.
+Making my mind move away from frustration could definitely prevent more
+errors.''
 
 When asked in which of the runs the robot exhibited behavior that could improve
 the efficiency of the collaboration, 83.9\% responded with the emotion-aware
@@ -830,18 +846,18 @@ human for help.
 
 Finally, when asked in which run the most interesting behavior occurred, 82.8\%
 chose the emotion-aware condition. Of these respondents, 12 individuals stated
-that the robot's attempt to console the human by saying ``it's not your fault'' in
-response to the human's negative emotion that occurred as a consequence of the
-human's failed task was the most interesting behavior, and a majority mentioned
-that it actually made them feel more positive. Six participants referred to the
-robot's ability to understand and express emotion. Several participants referred
-to the robot's ability to communicate, including the ability to ask questions.
-Of those who responded with the emotion-ignorant case, most found the ability to
-call the supervisor, and mechanical functions, such as gripping, to be most
-interesting.
+that the robot's attempt to console the human by saying ``It was not your
+fault'' in response to the human's negative emotion that occurred as a
+consequence of the human's failed task was the most interesting behavior, and a
+majority mentioned that it actually made them feel more positive. Six
+participants referred to the robot's ability to understand and express emotion.
+Several participants referred to the robot's ability to communicate, including
+the ability to ask questions. Of those who responded with the emotion-ignorant
+case, most found the ability to call the supervisor, and mechanical functions,
+such as gripping, to be most interesting.
 
 \subsection{Impact of Demographics} 
-As mentioned in Section \ref{sec:Participants}, we recorded certain identifying
+As mentioned in Section \ref{sec:Participants}, we recorded certain demographic
 information from each participant, including age and gender. We also had each
 participant complete several personality questionnaires. Although it was not the
 primary purpose of the study, we investigated the Likert scale results to
@@ -862,6 +878,7 @@ drop between the emotion-aware and the emotion-ignorant case was more for the
 younger group than for the older group; only questions 4, 6 and 12 broke this
 pattern.
 
+\vspace*{-2mm}
 \section{Discussion}
 Based on the results, all participants prefer to work with the emotion-aware
 robot. Humans find the emotion-aware robot more likable and more trustworthy, as
@@ -880,7 +897,7 @@ successfully motivate people and maintain their commitment to the collaboration,
 especially when tasks failed. Additionally, as shown in Section \ref{sec:Performance},
 humans rated the emotion-aware case much higher than the emotion-ignorant case
 when asked which robot's decisions improved their performance, in essence
-acknowledging that their collaborator's decisions (i.e. the robot) had a
+acknowledging that their collaborator's (i.e. the robot's) decisions had a
 significant impact on their performance. As some of the open-ended responses
 indicated, successfully managing emotions within the collaboration can help keep
 the collaboration on track, and prevent distractions due to guilt and other
@@ -898,9 +915,17 @@ during the first run the robot cares about the human(me)'s feelings and cheers
 me up when I failed at the tasks, I think that could also improve efficiency of
 collaboration, because it would be more like a team or partnership.''
 
-
 \section{Conclusions}
-
+The goal of our user-study was to compare different aspects of humans'
+preferences during collaboration with a robot. Our results conclusively showed
+that humans prefer collaborating with an emotion-aware robot which is capable
+of a) expressing appropriate emotions, and b) changing collaborative behaviors
+based on the perceived negative emotions of the human. We are interested to
+carry out further studies with more capabilities from our framework in order to
+study collaboration with more complex tasks and evaluate collaborative
+performance based on objective measures such as cost or time to achieve a shared
+goal. We believe that emotion-aware robots will outperform emotion-ignorant
+robots in collaboration with humans.
 
 %ACKNOWLEDGMENTS are optional
 % \section{Acknowledgments}
